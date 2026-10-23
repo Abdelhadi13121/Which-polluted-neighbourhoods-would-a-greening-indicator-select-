@@ -1,0 +1,13 @@
+spec,dist_lo_km,dist_hi_km,pairs,residual_correlation
+city_FE,0.0,1.5,26329,0.6495494280641528
+city_FE,1.5,2.5,36246,0.5700132412469946
+city_FE,2.5,3.5,45094,0.5509842025534748
+city_FE,3.5,5.5,152679,0.4737451712912242
+city_FE,5.5,10.5,513224,0.26968049837770697
+city_FE,10.5,20.5,1210691,-0.07348613163358245
+city_FE_city_quadratic_spatial_trends,0.0,1.5,26329,0.5852224383573392
+city_FE_city_quadratic_spatial_trends,1.5,2.5,36246,0.4924221473424692
+city_FE_city_quadratic_spatial_trends,2.5,3.5,45094,0.46162912060925543
+city_FE_city_quadratic_spatial_trends,3.5,5.5,152679,0.34888456394014716
+city_FE_city_quadratic_spatial_trends,5.5,10.5,513224,0.08092220108403743
+city_FE_city_quadratic_spatial_trends,10.5,20.5,1210691,-0.15356461650690223

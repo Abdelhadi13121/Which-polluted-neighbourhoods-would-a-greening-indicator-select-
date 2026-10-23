@@ -1,0 +1,52 @@
+{
+  "format_version": 1,
+  "compression": "gzip stream split into ordered parts; restore with scripts/prepare_data.py",
+  "datasets": [
+    {
+      "filename": "european_urban_panel_2010_2025.csv",
+      "bytes": 759701412,
+      "sha256": "eff20c2c0305f47411d9d683a0af564a300cd2c4cda4159de98ca799431aa1ba",
+      "compressed_sha256": "5c2eb96688c02875ff49175ff66bea61b20086e9503c34a531b9b688dd6f853b",
+      "parts": [
+        {
+          "path": "data/archives/european_urban_panel_2010_2025.csv.gz.part01",
+          "bytes": 20971520,
+          "sha256": "ad63c4687e9545efede2f932ac47cee755a5f23b68d92cb0ed7516508a8fa5e0"
+        },
+        {
+          "path": "data/archives/european_urban_panel_2010_2025.csv.gz.part02",
+          "bytes": 20971520,
+          "sha256": "cb8c467b61b94e87e4d8019704e21e74bc4460e92e51a5c217fb6e4a8656cce5"
+        },
+        {
+          "path": "data/archives/european_urban_panel_2010_2025.csv.gz.part03",
+          "bytes": 20971520,
+          "sha256": "38e8ea00695e5dfacff7f8663fe221ce01996eb7c9a2d69530d2b3f6485efa67"
+        },
+        {
+          "path": "data/archives/european_urban_panel_2010_2025.csv.gz.part04",
+          "bytes": 20971520,
+          "sha256": "33d8f159341f266fd2c494ec5eb52a986eb1da27de66eb5ddfe458b0efa9adeb"
+        },
+        {
+          "path": "data/archives/european_urban_panel_2010_2025.csv.gz.part05",
+          "bytes": 16176552,
+          "sha256": "ad87ee29593002839bde178308b10d68f9f903f016bf2030b58e0fbedb02cef0"
+        }
+      ]
+    },
+    {
+      "filename": "paper_dataset.csv",
+      "bytes": 12302952,
+      "sha256": "60ef72798a24bf884c7005fd65627c529b93edd5a98b4f25b5e6ca56cfd1f6b4",
+      "compressed_sha256": "a9dd23ba5534898966ee5605050f57dba5924dbeca97982131e1ea0592ed468e",
+      "parts": [
+        {
+          "path": "data/archives/paper_dataset.csv.gz.part01",
+          "bytes": 3023121,
+          "sha256": "a9dd23ba5534898966ee5605050f57dba5924dbeca97982131e1ea0592ed468e"
+        }
+      ]
+    }
+  ]
+}

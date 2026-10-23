@@ -1,0 +1,11 @@
+Figure 1. City-level indicator disagreement, NO₂, 2018
+Panel a: chance-adjusted overlap κ (dotted line: chance-level agreement). Panel b: replacement rate. Filled marker: city estimate; bar: 95% 5 km block-bootstrap interval; diamond: equal-weight mean with 95% t-interval across cities (df = 9).
+
+Figure 2. Indicator disagreement over time and continuity of the map series
+Panel a: mean κ across cities by pollution year with 95% fixed-city bootstrap bands. Panel b: within-city rank correlation between consecutive annual maps. Dashed line: 2014/15.
+
+Figure 3. Change in the canopy-pollution gradient relative to 2018
+Eq. (7), contrasts 100θ~t~ (θ~t~ in log points of pollution per 10 pp canopy), relative to 2018. Panel a: NO₂; panel b: particulate matter, with the 2014/15 map-series discontinuity. The simultaneous band in panel a covers 2010 to 2024; the 2015 to 2024 test in Table 6 uses a narrower window and its own critical value.
+
+Figure 4. Specification curve of the indicator contrast
+Each point is the mean across usable cities of one specification (footprint, offset, eligibility quantile, budget), sorted within pollutant. Each pollutant is sorted separately, so equal horizontal positions in different pollutants are not the same specification; the configuration behind each point is in robustness_with_kappa.csv of the replication package.

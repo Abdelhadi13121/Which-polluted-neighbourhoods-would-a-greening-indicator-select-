@@ -1,0 +1,13 @@
+{
+  "seed": 20260930,
+  "bootstrap_draws_per_setting": 1000,
+  "primary_models": 30,
+  "bootstrap_rows": 240,
+  "matched_footprint_rows": 144,
+  "numpy_version": "2.5.3",
+  "no2_equal_city_mean_replacement": 0.562839136215408,
+  "no2_leave_city_out_mean_range": [
+    0.5381973308376329,
+    0.5883397809800832
+  ]
+}

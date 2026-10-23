@@ -1,0 +1,313 @@
+{
+  "csv_files_checked": 38,
+  "rtol": 1e-06,
+  "atol": 1e-08,
+  "passed": true,
+  "failures": [],
+  "tables": [
+    {
+      "file": "original_script/adjusted_associations.csv",
+      "rows": 36,
+      "columns": 11,
+      "passed": true,
+      "max_abs_numeric_difference": 1.687538997430238e-14,
+      "failed_columns": []
+    },
+    {
+      "file": "original_script/leave_block_out.csv",
+      "rows": 60,
+      "columns": 6,
+      "passed": true,
+      "max_abs_numeric_difference": 0.0,
+      "failed_columns": []
+    },
+    {
+      "file": "original_script/matched_footprint.csv",
+      "rows": 144,
+      "columns": 22,
+      "passed": true,
+      "max_abs_numeric_difference": 0.0,
+      "failed_columns": []
+    },
+    {
+      "file": "original_script/primary_estimates.csv",
+      "rows": 30,
+      "columns": 17,
+      "passed": true,
+      "max_abs_numeric_difference": 0.0,
+      "failed_columns": []
+    },
+    {
+      "file": "original_script/robustness_all.csv",
+      "rows": 1350,
+      "columns": 17,
+      "passed": true,
+      "max_abs_numeric_difference": 0.0,
+      "failed_columns": []
+    },
+    {
+      "file": "original_script/scale_coverage.csv",
+      "rows": 50,
+      "columns": 6,
+      "passed": true,
+      "max_abs_numeric_difference": 0.0,
+      "failed_columns": []
+    },
+    {
+      "file": "original_script/selected_cell_audit.csv",
+      "rows": 5883,
+      "columns": 11,
+      "passed": true,
+      "max_abs_numeric_difference": 0.0,
+      "failed_columns": []
+    },
+    {
+      "file": "original_script/spatial_resampling.csv",
+      "rows": 240,
+      "columns": 10,
+      "passed": true,
+      "max_abs_numeric_difference": 0.0,
+      "failed_columns": []
+    },
+    {
+      "file": "panel_extension/association_heterogeneity.csv",
+      "rows": 120,
+      "columns": 11,
+      "passed": true,
+      "max_abs_numeric_difference": 2.2723156689608004e-11,
+      "failed_columns": []
+    },
+    {
+      "file": "panel_extension/associations_replicated.csv",
+      "rows": 36,
+      "columns": 12,
+      "passed": true,
+      "max_abs_numeric_difference": 4.529709940470639e-14,
+      "failed_columns": []
+    },
+    {
+      "file": "panel_extension/average_annual_change.csv",
+      "rows": 3,
+      "columns": 3,
+      "passed": true,
+      "max_abs_numeric_difference": 0.0,
+      "failed_columns": []
+    },
+    {
+      "file": "panel_extension/block_counts.csv",
+      "rows": 20,
+      "columns": 4,
+      "passed": true,
+      "max_abs_numeric_difference": 0.0,
+      "failed_columns": []
+    },
+    {
+      "file": "panel_extension/burden_by_city.csv",
+      "rows": 30,
+      "columns": 5,
+      "passed": true,
+      "max_abs_numeric_difference": 0.0,
+      "failed_columns": []
+    },
+    {
+      "file": "panel_extension/burden_pooled.csv",
+      "rows": 3,
+      "columns": 15,
+      "passed": true,
+      "max_abs_numeric_difference": 0.0,
+      "failed_columns": []
+    },
+    {
+      "file": "panel_extension/city_descriptives.csv",
+      "rows": 10,
+      "columns": 11,
+      "passed": true,
+      "max_abs_numeric_difference": 0.0,
+      "failed_columns": []
+    },
+    {
+      "file": "panel_extension/city_year_estimates.csv",
+      "rows": 480,
+      "columns": 27,
+      "passed": true,
+      "max_abs_numeric_difference": 0.0,
+      "failed_columns": []
+    },
+    {
+      "file": "panel_extension/consecutive_rank_corr.csv",
+      "rows": 45,
+      "columns": 6,
+      "passed": true,
+      "max_abs_numeric_difference": 0.0,
+      "failed_columns": []
+    },
+    {
+      "file": "panel_extension/core_vs_noncore.csv",
+      "rows": 2,
+      "columns": 8,
+      "passed": true,
+      "max_abs_numeric_difference": 0.0,
+      "failed_columns": []
+    },
+    {
+      "file": "panel_extension/correlogram.csv",
+      "rows": 12,
+      "columns": 5,
+      "passed": true,
+      "max_abs_numeric_difference": 4.0245584642661925e-16,
+      "failed_columns": []
+    },
+    {
+      "file": "panel_extension/descriptives.csv",
+      "rows": 9,
+      "columns": 9,
+      "passed": true,
+      "max_abs_numeric_difference": 0.0,
+      "failed_columns": []
+    },
+    {
+      "file": "panel_extension/disagreement_groups.csv",
+      "rows": 3,
+      "columns": 8,
+      "passed": true,
+      "max_abs_numeric_difference": 0.0,
+      "failed_columns": []
+    },
+    {
+      "file": "panel_extension/disagreement_lpm.csv",
+      "rows": 9,
+      "columns": 7,
+      "passed": true,
+      "max_abs_numeric_difference": 0.0,
+      "failed_columns": []
+    },
+    {
+      "file": "panel_extension/exceedance.csv",
+      "rows": 15,
+      "columns": 5,
+      "passed": true,
+      "max_abs_numeric_difference": 0.0,
+      "failed_columns": []
+    },
+    {
+      "file": "panel_extension/gradient_levels_by_year.csv",
+      "rows": 48,
+      "columns": 8,
+      "passed": true,
+      "max_abs_numeric_difference": 1.0061396160665481e-16,
+      "failed_columns": []
+    },
+    {
+      "file": "panel_extension/gradient_panel.csv",
+      "rows": 540,
+      "columns": 14,
+      "passed": true,
+      "max_abs_numeric_difference": 2.2301605007157832e-14,
+      "failed_columns": []
+    },
+    {
+      "file": "panel_extension/gradient_summary.csv",
+      "rows": 72,
+      "columns": 25,
+      "passed": true,
+      "max_abs_numeric_difference": 7.617018127348274e-12,
+      "failed_columns": []
+    },
+    {
+      "file": "panel_extension/leave_one_city_out.csv",
+      "rows": 30,
+      "columns": 4,
+      "passed": true,
+      "max_abs_numeric_difference": 0.0,
+      "failed_columns": []
+    },
+    {
+      "file": "panel_extension/morans_i.csv",
+      "rows": 50,
+      "columns": 8,
+      "passed": true,
+      "max_abs_numeric_difference": 0.0,
+      "failed_columns": []
+    },
+    {
+      "file": "panel_extension/pooled_within_city_corr.csv",
+      "rows": 6,
+      "columns": 7,
+      "passed": true,
+      "max_abs_numeric_difference": 0.0,
+      "failed_columns": []
+    },
+    {
+      "file": "panel_extension/pooled_year_estimates.csv",
+      "rows": 192,
+      "columns": 30,
+      "passed": true,
+      "max_abs_numeric_difference": 0.0,
+      "failed_columns": []
+    },
+    {
+      "file": "panel_extension/robustness_summary.csv",
+      "rows": 48,
+      "columns": 7,
+      "passed": true,
+      "max_abs_numeric_difference": 0.0,
+      "failed_columns": []
+    },
+    {
+      "file": "panel_extension/robustness_with_kappa.csv",
+      "rows": 960,
+      "columns": 20,
+      "passed": true,
+      "max_abs_numeric_difference": 0.0,
+      "failed_columns": []
+    },
+    {
+      "file": "panel_extension/sample_construction.csv",
+      "rows": 5,
+      "columns": 13,
+      "passed": true,
+      "max_abs_numeric_difference": 0.0,
+      "failed_columns": []
+    },
+    {
+      "file": "panel_extension/set_persistence.csv",
+      "rows": 480,
+      "columns": 9,
+      "passed": true,
+      "max_abs_numeric_difference": 0.0,
+      "failed_columns": []
+    },
+    {
+      "file": "panel_extension/temporal_stability.csv",
+      "rows": 12,
+      "columns": 17,
+      "passed": true,
+      "max_abs_numeric_difference": 0.0,
+      "failed_columns": []
+    },
+    {
+      "file": "panel_extension/tie_diagnostics.csv",
+      "rows": 10,
+      "columns": 7,
+      "passed": true,
+      "max_abs_numeric_difference": 0.0,
+      "failed_columns": []
+    },
+    {
+      "file": "panel_extension/tie_diagnostics_all.csv",
+      "rows": 60,
+      "columns": 8,
+      "passed": true,
+      "max_abs_numeric_difference": 0.0,
+      "failed_columns": []
+    },
+    {
+      "file": "panel_extension/variance_decomposition.csv",
+      "rows": 3,
+      "columns": 5,
+      "passed": true,
+      "max_abs_numeric_difference": 0.0,
+      "failed_columns": []
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "status": "passed",
+  "duration_seconds": 169.7,
+  "python": "3.12.14",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "packages": {
+    "numpy": "2.5.3",
+    "pandas": "3.0.6",
+    "scipy": "1.18.1",
+    "matplotlib": "3.11.2"
+  },
+  "bootstrap_draws": 1000,
+  "seed": 20260930,
+  "mode": "full",
+  "notes": "CSV numerical tables compared against archived references; figure files regenerated. No claim of journal acceptance or causal identification."
+}

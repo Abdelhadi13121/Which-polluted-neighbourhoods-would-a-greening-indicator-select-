@@ -1,0 +1,49 @@
+{
+  "title": "Data and code: Which polluted neighbourhoods would a greening indicator select? Indicator dependence in urban greening screening across ten European cities, 2010 to 2024",
+  "upload_type": "software",
+  "description": "<p>Analytical panel (79,988 one-kilometre cells x 16 years, ten European functional urban areas) combining Eurostat Census 2021 residents, Copernicus Tree Cover Density 2018, Copernicus Urban Atlas 2018 class 14100 (green urban areas, cells wholly inside the city boundary mask) and EEA interpolated annual maps of NO2, PM2.5 and PM10 for 2010 to 2025, with the extraction scripts, the analysis code, the result tables, a data dictionary, a provenance file and checksums. Derived from public sources; see docs/PROVENANCE.md for versions, URLs and processing.</p><p>Replication software is licensed under MIT; authored documentation and derived-data contributions under CC BY 4.0, subject to upstream source terms, including the GISCO geographical non-commercial restriction. Boundary attribution: © EuroGeographics for the administrative boundaries. Original data are restored losslessly from compressed parts and verified by SHA-256.</p>",
+  "creators": [
+    {
+      "name": "Benghalem, Abdelhadi",
+      "affiliation": "University Center of Maghnia; Economic Research Forum (ERF)",
+      "orcid": "0000-0003-4057-7448"
+    },
+    {
+      "name": "Benbouziane, Mohamed",
+      "affiliation": "Abou Bekr Belkaïd University of Tlemcen; MECAS Laboratory, Abou Bekr Belkaïd University of Tlemcen; Economic Research Forum (ERF), Cairo",
+      "orcid": "0000-0002-9530-4159"
+    }
+  ],
+  "keywords": [
+    "urban greening",
+    "tree canopy",
+    "air pollution",
+    "NO2",
+    "Urban Atlas",
+    "Copernicus",
+    "EEA",
+    "screening",
+    "replication"
+  ],
+  "access_right": "open",
+  "license": "mit",
+  "related_identifiers": [
+    {
+      "identifier": "https://gisco-services.ec.europa.eu/census/2021/Eurostat_Census-GRID_2021_V3.zip",
+      "relation": "isDerivedFrom",
+      "resource_type": "dataset"
+    },
+    {
+      "identifier": "https://land.copernicus.eu/en/products/urban-atlas/urban-atlas-2018",
+      "relation": "isDerivedFrom",
+      "resource_type": "dataset"
+    },
+    {
+      "identifier": "https://sdi.eea.europa.eu/data/c0ca09a4-d9fe-4772-bc48-90cf31639442",
+      "relation": "isDerivedFrom",
+      "resource_type": "dataset"
+    }
+  ],
+  "version": "1.0.0",
+  "language": "eng"
+}

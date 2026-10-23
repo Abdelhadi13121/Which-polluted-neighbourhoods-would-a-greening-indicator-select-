@@ -1,0 +1,26 @@
+{
+ "rows_exported": 3082,
+ "rows_per_search": {
+  "s1": 712,
+  "s2": 905,
+  "s3": 15,
+  "s4": 1047,
+  "s5": 403
+ },
+ "unique_records": 2976,
+ "duplicates_removed": 106,
+ "excluded_retracted_or_erratum_types": 7,
+ "green_and_pollution": 1146,
+ "green_pollution_indicator": 314,
+ "green_pollution_prioritisation": 167,
+ "green_pollution_indicator_prioritisation": 37,
+ "green_indicator_comparison_urban": 944,
+ "green_pollution_inequality_europe": 18,
+ "copernicus_or_urban_atlas_data": 29,
+ "green_pollution_europe_data_prioritisation_indicator": 0,
+ "cited_refs": 27,
+ "cited_in_scopus_only": 5,
+ "cited_in_consensus_only": 4,
+ "cited_in_both": 17,
+ "cited_in_neither": 1
+}

@@ -1,0 +1,15 @@
+# Restored data are verified from the committed compressed parts
+/data/*.csv
+/outputs/
+/.venv/
+/venv/
+__pycache__/
+*.py[cod]
+.DS_Store
+Thumbs.db
+~$*
+*.log
+/source_extraction/work/
+/source_extraction/outputs/
+/literature/s[1-5].csv
+/literature/consensus_rows.pkl

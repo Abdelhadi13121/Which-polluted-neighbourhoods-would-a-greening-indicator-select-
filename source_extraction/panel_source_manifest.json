@@ -1,0 +1,3071 @@
+[
+  {
+    "pollutant": "pm25",
+    "year": 2010,
+    "uuid": "e9fada4e-d341-4bef-9425-a9a2ba104ba3",
+    "title": "PM2.5, European air quality data for 2010, (interpolated data)",
+    "interim": false,
+    "identifier": [
+      {
+        "code": "eea_r_3035_1_km_aq-interpolated-pm25_p_2010_v01_r00",
+        "link": "",
+        "codeSpace": ""
+      }
+    ],
+    "download_url": "https://sdi.eea.europa.eu/datashare/s/gpMr6k7CFtCzMY3/download",
+    "archive_bytes": 7806454,
+    "archive_sha256": "eee2d11170dc3cc2a1f0b8e378a7a7136e28d12c981669449779714b35ddab35",
+    "status": "downloaded",
+    "metrics": [
+      {
+        "metric": "pm25_annual_ug_m3",
+        "pollutant": "pm25",
+        "year": 2010,
+        "uuid": "e9fada4e-d341-4bef-9425-a9a2ba104ba3",
+        "source_key": "pm25_2010",
+        "interim": false,
+        "filename": "EEA_1kmgrid_2010_pm25_avg.tif",
+        "native_resolution_m": 1000.0,
+        "valid_cells": 79538,
+        "min": 6.261115074157715,
+        "max": 30.708019256591797,
+        "scale": 1.0,
+        "offset": 0.0
+      }
+    ],
+    "source_key": "pm25_2010",
+    "metadata_url": "https://sdi.eea.europa.eu/catalogue/srv/api/records/e9fada4e-d341-4bef-9425-a9a2ba104ba3",
+    "retrieved_date": "2026-09-28"
+  },
+  {
+    "pollutant": "pm10",
+    "year": 2010,
+    "uuid": "ceb66ecc-4e2c-4dc7-9aac-cfc4b9ce76f8",
+    "title": "pm10, European air quality data for 2010, (interpolated data)",
+    "interim": false,
+    "status": "downloaded",
+    "download_url": "https://sdi.eea.europa.eu/data/ceb66ecc-4e2c-4dc7-9aac-cfc4b9ce76f8",
+    "download_method": "public_webdav_range",
+    "files": [
+      {
+        "name": "EEA_1kmgrid_2010_pm10_avg.tif",
+        "bytes": 6989928,
+        "sha256": "d1f044486a03aacad9309c340e6e6ab4d05602d6140b3ed3fc9c366780f4b408"
+      },
+      {
+        "name": "pm10_36hda_10.tif",
+        "bytes": 7189060,
+        "sha256": "7f2009e0faa8212775938c633d90dfb07ffe4b21702f839e2c62ae6c9cd594e2"
+      },
+      {
+        "name": "README.md",
+        "bytes": 730,
+        "sha256": "e0eb2aed322853a29516be2367b926a8871aff7ccba039838e440d5d090fefb8"
+      }
+    ],
+    "metrics": [
+      {
+        "metric": "pm10_annual_ug_m3",
+        "pollutant": "pm10",
+        "year": 2010,
+        "uuid": "ceb66ecc-4e2c-4dc7-9aac-cfc4b9ce76f8",
+        "source_key": "pm10_2010",
+        "interim": false,
+        "filename": "EEA_1kmgrid_2010_pm10_avg.tif",
+        "native_resolution_m": 1000.0,
+        "valid_cells": 79538,
+        "min": 11.397909164428711,
+        "max": 42.81325912475586,
+        "scale": 1.0,
+        "offset": 0.0
+      },
+      {
+        "metric": "pm10_daily_36th_highest_ug_m3",
+        "pollutant": "pm10",
+        "year": 2010,
+        "uuid": "ceb66ecc-4e2c-4dc7-9aac-cfc4b9ce76f8",
+        "source_key": "pm10_2010",
+        "interim": false,
+        "filename": "pm10_36hda_10.tif",
+        "native_resolution_m": 1000.0,
+        "valid_cells": 79988,
+        "min": 19.110994338989258,
+        "max": 80.17552185058594,
+        "scale": 1.0,
+        "offset": 0.0
+      }
+    ],
+    "source_key": "pm10_2010",
+    "metadata_url": "https://sdi.eea.europa.eu/catalogue/srv/api/records/ceb66ecc-4e2c-4dc7-9aac-cfc4b9ce76f8",
+    "retrieved_date": "2026-09-28"
+  },
+  {
+    "pollutant": "no2",
+    "year": 2010,
+    "uuid": "a0fb700f-f4fe-4519-a458-bc0d304d32df",
+    "title": "NO2, European air quality data for 2010, (interpolated data)",
+    "interim": false,
+    "identifier": [
+      {
+        "code": "eea_r_3035_1_km_aq-interpolated-NO2_p_2010_v01_r00",
+        "link": "",
+        "codeSpace": ""
+      }
+    ],
+    "download_url": "https://sdi.eea.europa.eu/datashare/s/J8HFYS5oWR4e3Ji/download",
+    "archive_bytes": 25139170,
+    "archive_sha256": "9826c6810ddf119378ddd8e2c19dc350f78fd048f3e3f21428e124ee34baab4c",
+    "status": "downloaded",
+    "metrics": [
+      {
+        "metric": "no2_annual_ug_m3",
+        "pollutant": "no2",
+        "year": 2010,
+        "uuid": "a0fb700f-f4fe-4519-a458-bc0d304d32df",
+        "source_key": "no2_2010",
+        "interim": false,
+        "filename": "EEA_1kmgrid_2010_no2_avg.tif",
+        "native_resolution_m": 1000.0,
+        "valid_cells": 79538,
+        "min": 0.05000000074505806,
+        "max": 56.63822937011719,
+        "scale": 1.0,
+        "offset": 0.0
+      }
+    ],
+    "source_key": "no2_2010",
+    "metadata_url": "https://sdi.eea.europa.eu/catalogue/srv/api/records/a0fb700f-f4fe-4519-a458-bc0d304d32df",
+    "retrieved_date": "2026-09-28"
+  },
+  {
+    "pollutant": "o3",
+    "year": 2010,
+    "uuid": "39743b2f-d5e8-4763-b981-4cdc7aff3f28",
+    "title": "O3, European air quality data for 2010, (interpolated data)",
+    "interim": false,
+    "status": "downloaded",
+    "download_url": "https://sdi.eea.europa.eu/data/39743b2f-d5e8-4763-b981-4cdc7aff3f28",
+    "download_method": "public_webdav_range",
+    "files": [
+      {
+        "name": "EEA_1kmgrid_2010_o3_26hdm.tif",
+        "bytes": 7066612,
+        "sha256": "6f6b146f033fda728c5758e75c46fa921ac11eeb628205169113e29795467bb1"
+      },
+      {
+        "name": "EEA_1kmgrid_2010_o3_somo35.tif",
+        "bytes": 7074520,
+        "sha256": "0527d458089929cd9ff06bc0a80c37af85f9b27fc7db108d879cce7d5c204b05"
+      },
+      {
+        "name": "README.md",
+        "bytes": 821,
+        "sha256": "4d2a979e8de17f75b47cac36047089b6587c9e81abd41f2ca7b70bba68169169"
+      }
+    ],
+    "metrics": [
+      {
+        "metric": "o3_mda8_26th_highest_ug_m3",
+        "pollutant": "o3",
+        "year": 2010,
+        "uuid": "39743b2f-d5e8-4763-b981-4cdc7aff3f28",
+        "source_key": "o3_2010",
+        "interim": false,
+        "filename": "EEA_1kmgrid_2010_o3_26hdm.tif",
+        "native_resolution_m": 1000.0,
+        "valid_cells": 79988,
+        "min": 82.88519287109375,
+        "max": 159.19981384277344,
+        "scale": 1.0,
+        "offset": 0.0
+      },
+      {
+        "metric": "o3_somo35_ug_m3_days",
+        "pollutant": "o3",
+        "year": 2010,
+        "uuid": "39743b2f-d5e8-4763-b981-4cdc7aff3f28",
+        "source_key": "o3_2010",
+        "interim": false,
+        "filename": "EEA_1kmgrid_2010_o3_somo35.tif",
+        "native_resolution_m": 1000.0,
+        "valid_cells": 79538,
+        "min": 1362.034912109375,
+        "max": 8987.1044921875,
+        "scale": 1.0,
+        "offset": 0.0
+      }
+    ],
+    "source_key": "o3_2010",
+    "metadata_url": "https://sdi.eea.europa.eu/catalogue/srv/api/records/39743b2f-d5e8-4763-b981-4cdc7aff3f28",
+    "retrieved_date": "2026-09-28"
+  },
+  {
+    "pollutant": "pm25",
+    "year": 2011,
+    "uuid": "ca77fc89-8317-498f-a93e-15b7fb8fd736",
+    "title": "PM2.5, European air quality data for 2011, (interpolated data)",
+    "interim": false,
+    "identifier": [
+      {
+        "code": "eea_r_3035_1_km_aq-interpolated-pm25_p_2011_v01_r00",
+        "link": "",
+        "codeSpace": ""
+      }
+    ],
+    "download_url": "https://sdi.eea.europa.eu/datashare/s/BfdbWXijejzk8om/download",
+    "archive_bytes": 7965789,
+    "archive_sha256": "4212509b23c234a92452155b991203418f85688146204b33762c4c6e316a1ee8",
+    "status": "downloaded",
+    "metrics": [
+      {
+        "metric": "pm25_annual_ug_m3",
+        "pollutant": "pm25",
+        "year": 2011,
+        "uuid": "ca77fc89-8317-498f-a93e-15b7fb8fd736",
+        "source_key": "pm25_2011",
+        "interim": false,
+        "filename": "EEA_1kmgrid_2011_pm25_avg.tif",
+        "native_resolution_m": 1000.0,
+        "valid_cells": 79538,
+        "min": 5.502274036407471,
+        "max": 37.95622634887695,
+        "scale": 1.0,
+        "offset": 0.0
+      }
+    ],
+    "source_key": "pm25_2011",
+    "metadata_url": "https://sdi.eea.europa.eu/catalogue/srv/api/records/ca77fc89-8317-498f-a93e-15b7fb8fd736",
+    "retrieved_date": "2026-09-28"
+  },
+  {
+    "pollutant": "pm10",
+    "year": 2011,
+    "uuid": "b275b9e4-3acd-4d56-ae16-455529571afd",
+    "title": "pm10, European air quality data for 2011, (interpolated data)",
+    "interim": false,
+    "status": "downloaded",
+    "download_url": "https://sdi.eea.europa.eu/data/b275b9e4-3acd-4d56-ae16-455529571afd",
+    "download_method": "public_webdav_range",
+    "files": [
+      {
+        "name": "EEA_1kmgrid_2011_pm10_avg.tif",
+        "bytes": 7072432,
+        "sha256": "3ebd09d12f7c692e2ee7f150fe4357f520831ab67037f4fcf454120570e46fa9"
+      },
+      {
+        "name": "pm10_36hda_11.tif",
+        "bytes": 16658028,
+        "sha256": "e310cdb87f21fa07bfb8814f1a306a774d0cb4bcccfb3556c354d01f7d81170f"
+      },
+      {
+        "name": "README.md",
+        "bytes": 730,
+        "sha256": "578ef45610665d6b3411fd3976449fedcadeb2197cb6eaad1f1df53bf4792789"
+      }
+    ],
+    "metrics": [
+      {
+        "metric": "pm10_annual_ug_m3",
+        "pollutant": "pm10",
+        "year": 2011,
+        "uuid": "b275b9e4-3acd-4d56-ae16-455529571afd",
+        "source_key": "pm10_2011",
+        "interim": false,
+        "filename": "EEA_1kmgrid_2011_pm10_avg.tif",
+        "native_resolution_m": 1000.0,
+        "valid_cells": 79538,
+        "min": 10.59503173828125,
+        "max": 45.18610382080078,
+        "scale": 1.0,
+        "offset": 0.0
+      },
+      {
+        "metric": "pm10_daily_36th_highest_ug_m3",
+        "pollutant": "pm10",
+        "year": 2011,
+        "uuid": "b275b9e4-3acd-4d56-ae16-455529571afd",
+        "source_key": "pm10_2011",
+        "interim": false,
+        "filename": "pm10_36hda_11.tif",
+        "native_resolution_m": 1000.0,
+        "valid_cells": 79988,
+        "min": 18.02589225769043,
+        "max": 85.42317962646484,
+        "scale": 1.0,
+        "offset": 0.0
+      }
+    ],
+    "source_key": "pm10_2011",
+    "metadata_url": "https://sdi.eea.europa.eu/catalogue/srv/api/records/b275b9e4-3acd-4d56-ae16-455529571afd",
+    "retrieved_date": "2026-09-28"
+  },
+  {
+    "pollutant": "no2",
+    "year": 2011,
+    "uuid": "31235efa-3b31-46bd-8d0d-9adb69ad4e2c",
+    "title": "NO2, European air quality data for 2011, (interpolated data)",
+    "interim": false,
+    "identifier": [
+      {
+        "code": "eea_r_3035_1_km_aq-interpolated-NO2_p_2011_v01_r00",
+        "link": "",
+        "codeSpace": ""
+      }
+    ],
+    "download_url": "https://sdi.eea.europa.eu/datashare/s/ozdq7HDBbrS2ZAd/download",
+    "archive_bytes": 28007345,
+    "archive_sha256": "21237f547d69fc3c770eaaeb3576bc2d658a2632e4f87710f6dca47762313c67",
+    "status": "downloaded",
+    "metrics": [
+      {
+        "metric": "no2_annual_ug_m3",
+        "pollutant": "no2",
+        "year": 2011,
+        "uuid": "31235efa-3b31-46bd-8d0d-9adb69ad4e2c",
+        "source_key": "no2_2011",
+        "interim": false,
+        "filename": "EEA_1kmgrid_2011_no2_avg.tif",
+        "native_resolution_m": 1000.0,
+        "valid_cells": 79538,
+        "min": 0.8601547479629517,
+        "max": 59.12605285644531,
+        "scale": 1.0,
+        "offset": 0.0
+      }
+    ],
+    "source_key": "no2_2011",
+    "metadata_url": "https://sdi.eea.europa.eu/catalogue/srv/api/records/31235efa-3b31-46bd-8d0d-9adb69ad4e2c",
+    "retrieved_date": "2026-09-28"
+  },
+  {
+    "pollutant": "o3",
+    "year": 2011,
+    "uuid": "49b93341-1d18-4735-9dda-6a869bbc570b",
+    "title": "O3, European air quality data for 2011, (interpolated data)",
+    "interim": false,
+    "identifier": [
+      {
+        "code": "eea_r_3035_1_km_aq-interpolated-O3_p_2011_v01_r00",
+        "link": "",
+        "codeSpace": ""
+      }
+    ],
+    "download_url": "https://sdi.eea.europa.eu/datashare/s/Lk6tTqXscGzJ3if/download",
+    "archive_bytes": 49188515,
+    "archive_sha256": "b5fdb2e918cca131f8a0d1648214a604508e87ea12dc1012acddc4bb109cca9a",
+    "status": "downloaded",
+    "metrics": [
+      {
+        "metric": "o3_mda8_26th_highest_ug_m3",
+        "pollutant": "o3",
+        "year": 2011,
+        "uuid": "49b93341-1d18-4735-9dda-6a869bbc570b",
+        "source_key": "o3_2011",
+        "interim": false,
+        "filename": "EEA_1kmgrid_2011_o3_26hdm.tif",
+        "native_resolution_m": 1000.0,
+        "valid_cells": 79988,
+        "min": 92.99705505371094,
+        "max": 161.08006286621094,
+        "scale": 1.0,
+        "offset": 0.0
+      },
+      {
+        "metric": "o3_somo35_ug_m3_days",
+        "pollutant": "o3",
+        "year": 2011,
+        "uuid": "49b93341-1d18-4735-9dda-6a869bbc570b",
+        "source_key": "o3_2011",
+        "interim": false,
+        "filename": "EEA_1kmgrid_2011_o3_somo35.tif",
+        "native_resolution_m": 1000.0,
+        "valid_cells": 79538,
+        "min": 1748.3294677734375,
+        "max": 10906.8046875,
+        "scale": 1.0,
+        "offset": 0.0
+      }
+    ],
+    "source_key": "o3_2011",
+    "metadata_url": "https://sdi.eea.europa.eu/catalogue/srv/api/records/49b93341-1d18-4735-9dda-6a869bbc570b",
+    "retrieved_date": "2026-09-28"
+  },
+  {
+    "pollutant": "pm25",
+    "year": 2012,
+    "uuid": "b0bc848b-33ef-44bb-a389-dd576deb630c",
+    "title": "PM2.5, European air quality data for 2012, (interpolated data)",
+    "interim": false,
+    "identifier": [
+      {
+        "code": "eea_r_3035_1_km_aq-interpolated-pm25_p_2012_v01_r00",
+        "link": "",
+        "codeSpace": ""
+      }
+    ],
+    "download_url": "https://sdi.eea.europa.eu/datashare/s/Zq3okHBM2k2mKzn/download",
+    "archive_bytes": 7961083,
+    "archive_sha256": "6419d92dabfb19bac2c72c13b3d54e6abf234092fd811ec5be2dad58b99b186d",
+    "status": "downloaded",
+    "metrics": [
+      {
+        "metric": "pm25_annual_ug_m3",
+        "pollutant": "pm25",
+        "year": 2012,
+        "uuid": "b0bc848b-33ef-44bb-a389-dd576deb630c",
+        "source_key": "pm25_2012",
+        "interim": false,
+        "filename": "EEA_1kmgrid_2012_pm25_avg.tif",
+        "native_resolution_m": 1000.0,
+        "valid_cells": 79538,
+        "min": 4.929510116577148,
+        "max": 32.5350341796875,
+        "scale": 1.0,
+        "offset": 0.0
+      }
+    ],
+    "source_key": "pm25_2012",
+    "metadata_url": "https://sdi.eea.europa.eu/catalogue/srv/api/records/b0bc848b-33ef-44bb-a389-dd576deb630c",
+    "retrieved_date": "2026-09-28"
+  },
+  {
+    "pollutant": "pm10",
+    "year": 2012,
+    "uuid": "00c981af-e8f7-446e-90fe-760cafb754aa",
+    "title": "PM10, European air quality data for 2012, (interpolated data)",
+    "interim": false,
+    "identifier": [
+      {
+        "code": "eea_r_3035_1_km_aq-interpolated-pm10_p_2012_v01_r00",
+        "link": "",
+        "codeSpace": ""
+      }
+    ],
+    "download_url": "https://sdi.eea.europa.eu/datashare/s/N3csCPdZs6XFZcm/download",
+    "archive_bytes": 24247514,
+    "archive_sha256": "144892a692a5b722d7f86f46cfbb938e260a2b4571336c9968f68ad5f7eb309a",
+    "status": "downloaded",
+    "metrics": [
+      {
+        "metric": "pm10_annual_ug_m3",
+        "pollutant": "pm10",
+        "year": 2012,
+        "uuid": "00c981af-e8f7-446e-90fe-760cafb754aa",
+        "source_key": "pm10_2012",
+        "interim": false,
+        "filename": "EEA_1kmgrid_2012_pm10_avg.tif",
+        "native_resolution_m": 1000.0,
+        "valid_cells": 79538,
+        "min": 9.956415176391602,
+        "max": 39.91901779174805,
+        "scale": 1.0,
+        "offset": 0.0
+      },
+      {
+        "metric": "pm10_daily_p904_ug_m3",
+        "pollutant": "pm10",
+        "year": 2012,
+        "uuid": "00c981af-e8f7-446e-90fe-760cafb754aa",
+        "source_key": "pm10_2012",
+        "interim": false,
+        "filename": "pm10_p904_12.tif",
+        "native_resolution_m": 1000.0,
+        "valid_cells": 79988,
+        "min": 15.360457420349121,
+        "max": 79.69223022460938,
+        "scale": 1.0,
+        "offset": 0.0
+      }
+    ],
+    "source_key": "pm10_2012",
+    "metadata_url": "https://sdi.eea.europa.eu/catalogue/srv/api/records/00c981af-e8f7-446e-90fe-760cafb754aa",
+    "retrieved_date": "2026-09-28"
+  },
+  {
+    "pollutant": "no2",
+    "year": 2012,
+    "uuid": "c10852fd-7a0b-4e4f-89d1-73affd20fedd",
+    "title": "NO2, European air quality data for 2012, (interpolated data)",
+    "interim": false,
+    "identifier": [
+      {
+        "code": "eea_r_3035_1_km_aq-interpolated-NO2_p_2012_v01_r00",
+        "link": "",
+        "codeSpace": ""
+      }
+    ],
+    "download_url": "https://sdi.eea.europa.eu/datashare/s/7f4Rf4FSkG7XboM/download",
+    "archive_bytes": 28150613,
+    "archive_sha256": "6f4d19cf6db473fb53609aeeebf636c231084ff2c8f6d25e99dc7b99312bcbe8",
+    "status": "downloaded",
+    "metrics": [
+      {
+        "metric": "no2_annual_ug_m3",
+        "pollutant": "no2",
+        "year": 2012,
+        "uuid": "c10852fd-7a0b-4e4f-89d1-73affd20fedd",
+        "source_key": "no2_2012",
+        "interim": false,
+        "filename": "EEA_1kmgrid_2012_no2_avg.tif",
+        "native_resolution_m": 1000.0,
+        "valid_cells": 79538,
+        "min": 1.759016513824463,
+        "max": 57.58877182006836,
+        "scale": 1.0,
+        "offset": 0.0
+      }
+    ],
+    "source_key": "no2_2012",
+    "metadata_url": "https://sdi.eea.europa.eu/catalogue/srv/api/records/c10852fd-7a0b-4e4f-89d1-73affd20fedd",
+    "retrieved_date": "2026-09-28"
+  },
+  {
+    "pollutant": "o3",
+    "year": 2012,
+    "uuid": "981868da-895b-4934-bb01-d5fecd0d9ae5",
+    "title": "O3, European air quality data for 2012, (interpolated data)",
+    "interim": false,
+    "identifier": [
+      {
+        "code": "eea_r_3035_1_km_aq-interpolated-O3_p_2012_v01_r00",
+        "link": "",
+        "codeSpace": ""
+      }
+    ],
+    "download_url": "https://sdi.eea.europa.eu/datashare/s/o8xitRnasdKrrD6/download",
+    "archive_bytes": 53053444,
+    "archive_sha256": "5907d1f37b35269b8aea69c57a889aa4477595f0ec1bed6e174d422762df3add",
+    "status": "downloaded",
+    "metrics": [
+      {
+        "metric": "o3_mda8_p932_ug_m3",
+        "pollutant": "o3",
+        "year": 2012,
+        "uuid": "981868da-895b-4934-bb01-d5fecd0d9ae5",
+        "source_key": "o3_2012",
+        "interim": false,
+        "filename": "EEA_1kmgrid_2012_o3_p932.tif",
+        "native_resolution_m": 1000.0,
+        "valid_cells": 79988,
+        "min": 88.37589263916016,
+        "max": 164.0418243408203,
+        "scale": 1.0,
+        "offset": 0.0
+      },
+      {
+        "metric": "o3_somo35_ug_m3_days",
+        "pollutant": "o3",
+        "year": 2012,
+        "uuid": "981868da-895b-4934-bb01-d5fecd0d9ae5",
+        "source_key": "o3_2012",
+        "interim": false,
+        "filename": "EEA_1kmgrid_2012_o3_somo35.tif",
+        "native_resolution_m": 1000.0,
+        "valid_cells": 79538,
+        "min": 1319.7484130859375,
+        "max": 10611.41015625,
+        "scale": 1.0,
+        "offset": 0.0
+      }
+    ],
+    "source_key": "o3_2012",
+    "metadata_url": "https://sdi.eea.europa.eu/catalogue/srv/api/records/981868da-895b-4934-bb01-d5fecd0d9ae5",
+    "retrieved_date": "2026-09-28"
+  },
+  {
+    "pollutant": "pm25",
+    "year": 2013,
+    "uuid": "4f28bfd3-8186-4a2a-af93-295a26345c44",
+    "title": "PM2.5, European air quality data for 2013, (interpolated data)",
+    "interim": false,
+    "identifier": [
+      {
+        "code": "eea_r_3035_1_km_aq-interpolated-pm25_p_2013_v01_r00",
+        "link": "",
+        "codeSpace": ""
+      }
+    ],
+    "download_url": "https://sdi.eea.europa.eu/datashare/s/q7Cew5HkRo25k3e/download",
+    "archive_bytes": 7915344,
+    "archive_sha256": "750680d2b2f885b5d38f681fd00c92e43b4b04cab74f6661ef617da21e1239e3",
+    "status": "downloaded",
+    "metrics": [
+      {
+        "metric": "pm25_annual_ug_m3",
+        "pollutant": "pm25",
+        "year": 2013,
+        "uuid": "4f28bfd3-8186-4a2a-af93-295a26345c44",
+        "source_key": "pm25_2013",
+        "interim": false,
+        "filename": "EEA_1kmgrid_2013_pm25_avg.tif",
+        "native_resolution_m": 1000.0,
+        "valid_cells": 79538,
+        "min": 4.668130397796631,
+        "max": 30.90614891052246,
+        "scale": 1.0,
+        "offset": 0.0
+      }
+    ],
+    "source_key": "pm25_2013",
+    "metadata_url": "https://sdi.eea.europa.eu/catalogue/srv/api/records/4f28bfd3-8186-4a2a-af93-295a26345c44",
+    "retrieved_date": "2026-09-28"
+  },
+  {
+    "pollutant": "pm10",
+    "year": 2013,
+    "uuid": "19bd5d84-c802-46b1-8799-b2d807cfbffe",
+    "title": "pm10, European air quality data for 2013, (interpolated data)",
+    "interim": false,
+    "identifier": [
+      {
+        "code": "eea_r_3035_1_km_aq-interpolated-pm10_p_2013_v01_r00",
+        "link": "",
+        "codeSpace": ""
+      }
+    ],
+    "download_url": "https://sdi.eea.europa.eu/datashare/s/ZiDzMS2kbXxqFs8/download",
+    "archive_bytes": 14904845,
+    "archive_sha256": "8bc99df1fe7c8354083a4c3beda699d263a5c0e0db6cedc89bcacba8b6e4108f",
+    "status": "downloaded",
+    "metrics": [
+      {
+        "metric": "pm10_annual_ug_m3",
+        "pollutant": "pm10",
+        "year": 2013,
+        "uuid": "19bd5d84-c802-46b1-8799-b2d807cfbffe",
+        "source_key": "pm10_2013",
+        "interim": false,
+        "filename": "EEA_1kmgrid_2013_pm10_avg.tif",
+        "native_resolution_m": 1000.0,
+        "valid_cells": 79538,
+        "min": 7.126989841461182,
+        "max": 37.55385208129883,
+        "scale": 1.0,
+        "offset": 0.0
+      },
+      {
+        "metric": "pm10_daily_p904_ug_m3",
+        "pollutant": "pm10",
+        "year": 2013,
+        "uuid": "19bd5d84-c802-46b1-8799-b2d807cfbffe",
+        "source_key": "pm10_2013",
+        "interim": false,
+        "filename": "pm10_p904_13.tif",
+        "native_resolution_m": 1000.0,
+        "valid_cells": 79538,
+        "min": 12.682967185974121,
+        "max": 74.0802230834961,
+        "scale": 1.0,
+        "offset": 0.0
+      }
+    ],
+    "source_key": "pm10_2013",
+    "metadata_url": "https://sdi.eea.europa.eu/catalogue/srv/api/records/19bd5d84-c802-46b1-8799-b2d807cfbffe",
+    "retrieved_date": "2026-09-28"
+  },
+  {
+    "pollutant": "no2",
+    "year": 2013,
+    "uuid": "d83db77f-74b8-4aac-8f96-148384d48d66",
+    "title": "NO2, European air quality data for 2013, (interpolated data)",
+    "interim": false,
+    "identifier": [
+      {
+        "code": "eea_r_3035_1_km_aq-interpolated-NO2_p_2013_v01_r00",
+        "link": "",
+        "codeSpace": ""
+      }
+    ],
+    "download_url": "https://sdi.eea.europa.eu/datashare/s/aprWWH89QHe8NZL/download",
+    "archive_bytes": 27784659,
+    "archive_sha256": "218f5ae6e572df5071e336515feccf781ee472da98194d5bd1a8e48cc8ac0cf6",
+    "status": "downloaded",
+    "metrics": [
+      {
+        "metric": "no2_annual_ug_m3",
+        "pollutant": "no2",
+        "year": 2013,
+        "uuid": "d83db77f-74b8-4aac-8f96-148384d48d66",
+        "source_key": "no2_2013",
+        "interim": false,
+        "filename": "EEA_1kmgrid_2013_no2_avg.tif",
+        "native_resolution_m": 1000.0,
+        "valid_cells": 79538,
+        "min": 0.10000000149011612,
+        "max": 53.36996841430664,
+        "scale": 1.0,
+        "offset": 0.0
+      }
+    ],
+    "source_key": "no2_2013",
+    "metadata_url": "https://sdi.eea.europa.eu/catalogue/srv/api/records/d83db77f-74b8-4aac-8f96-148384d48d66",
+    "retrieved_date": "2026-09-28"
+  },
+  {
+    "pollutant": "o3",
+    "year": 2013,
+    "uuid": "eeb1da00-3d8f-4ea8-b9d0-1b64c2273cb7",
+    "title": "O3, European air quality data for 2013, (interpolated data)",
+    "interim": false,
+    "identifier": [
+      {
+        "code": "eea_r_3035_1_km_aq-interpolated-O3_p_2013_v01_r00",
+        "link": "",
+        "codeSpace": ""
+      }
+    ],
+    "download_url": "https://sdi.eea.europa.eu/datashare/s/BReZGgS8gGXkzPm/download",
+    "archive_bytes": 55631233,
+    "archive_sha256": "76960a139f4ab2ef61b2e0fe8651515ec52df0e2deb96173c935068abc4a3a35",
+    "status": "downloaded",
+    "metrics": [
+      {
+        "metric": "o3_mda8_p932_ug_m3",
+        "pollutant": "o3",
+        "year": 2013,
+        "uuid": "eeb1da00-3d8f-4ea8-b9d0-1b64c2273cb7",
+        "source_key": "o3_2013",
+        "interim": false,
+        "filename": "EEA_1kmgrid_2013_o3_p932.tif",
+        "native_resolution_m": 1000.0,
+        "valid_cells": 79988,
+        "min": 94.15074920654297,
+        "max": 169.34976196289062,
+        "scale": 1.0,
+        "offset": 0.0
+      },
+      {
+        "metric": "o3_somo35_ug_m3_days",
+        "pollutant": "o3",
+        "year": 2013,
+        "uuid": "eeb1da00-3d8f-4ea8-b9d0-1b64c2273cb7",
+        "source_key": "o3_2013",
+        "interim": false,
+        "filename": "EEA_1kmgrid_2013_o3_somo35.tif",
+        "native_resolution_m": 1000.0,
+        "valid_cells": 79538,
+        "min": 2062.441650390625,
+        "max": 10045.189453125,
+        "scale": 1.0,
+        "offset": 0.0
+      }
+    ],
+    "source_key": "o3_2013",
+    "metadata_url": "https://sdi.eea.europa.eu/catalogue/srv/api/records/eeb1da00-3d8f-4ea8-b9d0-1b64c2273cb7",
+    "retrieved_date": "2026-09-28"
+  },
+  {
+    "pollutant": "pm25",
+    "year": 2014,
+    "uuid": "e7e2f718-f439-4412-ad47-92075e8fe29d",
+    "title": "PM2.5, European air quality data for 2014, (interpolated data)",
+    "interim": false,
+    "identifier": [
+      {
+        "code": "eea_r_3035_1_km_aq-interpolated-pm25_p_2014_v01_r00",
+        "link": "",
+        "codeSpace": ""
+      }
+    ],
+    "download_url": "https://sdi.eea.europa.eu/datashare/s/PyEPTfbHomgSGFH/download",
+    "archive_bytes": 6014718,
+    "archive_sha256": "e12baf78337701463250a1f298823959e87df28b97e8307af3d428c70c12225d",
+    "status": "downloaded",
+    "metrics": [
+      {
+        "metric": "pm25_annual_ug_m3",
+        "pollutant": "pm25",
+        "year": 2014,
+        "uuid": "e7e2f718-f439-4412-ad47-92075e8fe29d",
+        "source_key": "pm25_2014",
+        "interim": false,
+        "filename": "EEA_1kmgrid_2014_pm25_avg.tif",
+        "native_resolution_m": 1000.0,
+        "valid_cells": 79988,
+        "min": 0.0,
+        "max": 28.228,
+        "scale": 1.0,
+        "offset": 0.0
+      }
+    ],
+    "source_key": "pm25_2014",
+    "metadata_url": "https://sdi.eea.europa.eu/catalogue/srv/api/records/e7e2f718-f439-4412-ad47-92075e8fe29d",
+    "retrieved_date": "2026-09-28"
+  },
+  {
+    "pollutant": "pm10",
+    "year": 2014,
+    "uuid": "3476f99a-e670-44fb-bc49-3330f30bc67a",
+    "title": "pm10, European air quality data for 2014, (interpolated data)",
+    "interim": false,
+    "identifier": [
+      {
+        "code": "eea_r_3035_1_km_aq-interpolated-pm10_p_2014_v01_r00",
+        "link": "",
+        "codeSpace": ""
+      }
+    ],
+    "download_url": "https://sdi.eea.europa.eu/datashare/s/esGjMad5GGnQp68/download",
+    "archive_bytes": 6009816,
+    "archive_sha256": "5f995421f3ef0928f0ce6a41bdf131a74e4daa2ce966e43c9b85ddf00052cb22",
+    "status": "downloaded",
+    "metrics": [
+      {
+        "metric": "pm10_annual_ug_m3",
+        "pollutant": "pm10",
+        "year": 2014,
+        "uuid": "3476f99a-e670-44fb-bc49-3330f30bc67a",
+        "source_key": "pm10_2014",
+        "interim": false,
+        "filename": "EEA_1kmgrid_2014_pm10_avg.tif",
+        "native_resolution_m": 1000.0,
+        "valid_cells": 79988,
+        "min": 0.0,
+        "max": 37.483,
+        "scale": 1.0,
+        "offset": 0.0
+      }
+    ],
+    "source_key": "pm10_2014",
+    "metadata_url": "https://sdi.eea.europa.eu/catalogue/srv/api/records/3476f99a-e670-44fb-bc49-3330f30bc67a",
+    "retrieved_date": "2026-09-28"
+  },
+  {
+    "pollutant": "no2",
+    "year": 2014,
+    "uuid": "75e0e55f-bcc5-4160-85d3-2e73b9f07093",
+    "title": "NO2, European air quality data for 2014, (interpolated data)",
+    "interim": false,
+    "identifier": [
+      {
+        "code": "eea_r_3035_1_km_aq-interpolated-NO2_p_2014_v01_r00",
+        "link": "",
+        "codeSpace": ""
+      }
+    ],
+    "download_url": "https://sdi.eea.europa.eu/datashare/s/o3SGn5jJdExzCKf/download",
+    "archive_bytes": 16101553,
+    "archive_sha256": "d8d4f2c68e10921f94aa99c8c0ea21c1e3bce1481de95559c56b5ecd7170352a",
+    "status": "downloaded",
+    "metrics": [
+      {
+        "metric": "no2_annual_ug_m3",
+        "pollutant": "no2",
+        "year": 2014,
+        "uuid": "75e0e55f-bcc5-4160-85d3-2e73b9f07093",
+        "source_key": "no2_2014",
+        "interim": false,
+        "filename": "EEA_1kmgrid_2014_no2_avg.tif",
+        "native_resolution_m": 1000.0,
+        "valid_cells": 79538,
+        "min": 0.05000000074505806,
+        "max": 51.590999603271484,
+        "scale": 1.0,
+        "offset": 0.0
+      }
+    ],
+    "source_key": "no2_2014",
+    "metadata_url": "https://sdi.eea.europa.eu/catalogue/srv/api/records/75e0e55f-bcc5-4160-85d3-2e73b9f07093",
+    "retrieved_date": "2026-09-28"
+  },
+  {
+    "pollutant": "o3",
+    "year": 2014,
+    "uuid": "c87ac28a-82cf-4c9e-8c19-7f573396579a",
+    "title": "O3, European air quality data for 2014, (interpolated data)",
+    "interim": false,
+    "identifier": [
+      {
+        "code": "eea_r_3035_1_km_aq-interpolated-O3_p_2014_v01_r00",
+        "link": "",
+        "codeSpace": ""
+      }
+    ],
+    "download_url": "https://sdi.eea.europa.eu/datashare/s/5GAYasS2Loqyo4F/download",
+    "archive_bytes": 36697815,
+    "archive_sha256": "7a5d9df143b43f69463cf49a7cf3be3dd5ce591524927996b1e534e312a325e9",
+    "status": "downloaded",
+    "metrics": [
+      {
+        "metric": "o3_mda8_p932_ug_m3",
+        "pollutant": "o3",
+        "year": 2014,
+        "uuid": "c87ac28a-82cf-4c9e-8c19-7f573396579a",
+        "source_key": "o3_2014",
+        "interim": false,
+        "filename": "EEA_1kmgrid_2014_o3_p932.tif",
+        "native_resolution_m": 1000.0,
+        "valid_cells": 79988,
+        "min": 0.0,
+        "max": 138.84,
+        "scale": 1.0,
+        "offset": 0.0
+      },
+      {
+        "metric": "o3_somo35_ug_m3_days",
+        "pollutant": "o3",
+        "year": 2014,
+        "uuid": "c87ac28a-82cf-4c9e-8c19-7f573396579a",
+        "source_key": "o3_2014",
+        "interim": false,
+        "filename": "EEA_1kmgrid_2014_o3_somo35.tif",
+        "native_resolution_m": 1000.0,
+        "valid_cells": 79988,
+        "min": 0.0,
+        "max": 8449.18,
+        "scale": 1.0,
+        "offset": 0.0
+      }
+    ],
+    "source_key": "o3_2014",
+    "metadata_url": "https://sdi.eea.europa.eu/catalogue/srv/api/records/c87ac28a-82cf-4c9e-8c19-7f573396579a",
+    "retrieved_date": "2026-09-28"
+  },
+  {
+    "pollutant": "pm25",
+    "year": 2015,
+    "uuid": "4de7f4ce-d761-4d3c-9390-feb2b8f6c653",
+    "title": "PM2.5, European air quality data for 2015, (interpolated data)",
+    "interim": false,
+    "identifier": [
+      {
+        "code": "eea_r_3035_1_km_aq-interpolated-pm25_p_2015_v01_r00",
+        "link": "",
+        "codeSpace": ""
+      }
+    ],
+    "download_url": "https://sdi.eea.europa.eu/datashare/s/L3QKC2pRRj3oR7E/download",
+    "archive_bytes": 22031423,
+    "archive_sha256": "17ca12e2337a4413ef0f763d0ae10697f8ecb9afe17f54dc188a44afeac6b6a6",
+    "status": "downloaded",
+    "metrics": [
+      {
+        "metric": "pm25_annual_ug_m3",
+        "pollutant": "pm25",
+        "year": 2015,
+        "uuid": "4de7f4ce-d761-4d3c-9390-feb2b8f6c653",
+        "source_key": "pm25_2015",
+        "interim": false,
+        "filename": "EEA_1kmgrid_2015_pm25_avg.tif",
+        "native_resolution_m": 1000.0,
+        "valid_cells": 79538,
+        "min": 3.6613399982452393,
+        "max": 28.967199325561523,
+        "scale": 1.0,
+        "offset": 0.0
+      }
+    ],
+    "source_key": "pm25_2015",
+    "metadata_url": "https://sdi.eea.europa.eu/catalogue/srv/api/records/4de7f4ce-d761-4d3c-9390-feb2b8f6c653",
+    "retrieved_date": "2026-09-28"
+  },
+  {
+    "pollutant": "pm10",
+    "year": 2015,
+    "uuid": "b0cd779e-f66a-45b8-8d31-7aa46e7270dd",
+    "title": "pm10, European air quality data for 2015, (interpolated data)",
+    "interim": false,
+    "identifier": [
+      {
+        "code": "eea_r_3035_1_km_aq-interpolated-pm10_p_2015_v01_r00",
+        "link": "",
+        "codeSpace": ""
+      }
+    ],
+    "download_url": "https://sdi.eea.europa.eu/datashare/s/NAFNxrYf5n57zzk/download",
+    "archive_bytes": 21457990,
+    "archive_sha256": "53415be805b2a52246fd7d7748ff9346a97c813300b172cea0fdf003d79dafbb",
+    "status": "downloaded",
+    "metrics": [
+      {
+        "metric": "pm10_annual_ug_m3",
+        "pollutant": "pm10",
+        "year": 2015,
+        "uuid": "b0cd779e-f66a-45b8-8d31-7aa46e7270dd",
+        "source_key": "pm10_2015",
+        "interim": false,
+        "filename": "EEA_1kmgrid_2015_pm10_avg.tif",
+        "native_resolution_m": 1000.0,
+        "valid_cells": 79538,
+        "min": 6.964260101318359,
+        "max": 39.59669876098633,
+        "scale": 1.0,
+        "offset": 0.0
+      }
+    ],
+    "source_key": "pm10_2015",
+    "metadata_url": "https://sdi.eea.europa.eu/catalogue/srv/api/records/b0cd779e-f66a-45b8-8d31-7aa46e7270dd",
+    "retrieved_date": "2026-09-28"
+  },
+  {
+    "pollutant": "no2",
+    "year": 2015,
+    "uuid": "e5896e30-342a-4e63-b586-5e543daf5ed0",
+    "title": "NO2, European air quality data for 2015, (interpolated data)",
+    "interim": false,
+    "identifier": [
+      {
+        "code": "eea_r_3035_1_km_aq-interpolated-NO2_p_2015_v01_r00",
+        "link": "",
+        "codeSpace": ""
+      }
+    ],
+    "download_url": "https://sdi.eea.europa.eu/datashare/s/gcEwRexj2cZYWxK/download",
+    "archive_bytes": 23050114,
+    "archive_sha256": "f61c305d15feaacc655f21c4460cf76ebd2cfb827f224809e46872abe82d7093",
+    "status": "downloaded",
+    "metrics": [
+      {
+        "metric": "no2_annual_ug_m3",
+        "pollutant": "no2",
+        "year": 2015,
+        "uuid": "e5896e30-342a-4e63-b586-5e543daf5ed0",
+        "source_key": "no2_2015",
+        "interim": false,
+        "filename": "EEA_1kmgrid_2015_no2_avg.tif",
+        "native_resolution_m": 1000.0,
+        "valid_cells": 79538,
+        "min": 0.05000000074505806,
+        "max": 56.521419525146484,
+        "scale": 1.0,
+        "offset": 0.0
+      }
+    ],
+    "source_key": "no2_2015",
+    "metadata_url": "https://sdi.eea.europa.eu/catalogue/srv/api/records/e5896e30-342a-4e63-b586-5e543daf5ed0",
+    "retrieved_date": "2026-09-28"
+  },
+  {
+    "pollutant": "o3",
+    "year": 2015,
+    "uuid": "ead3f70c-ba7e-4c2c-8073-f79a52bf1aae",
+    "title": "O3, European air quality data for 2015, (interpolated data)",
+    "interim": false,
+    "identifier": [
+      {
+        "code": "eea_r_3035_1_km_aq-interpolated-O3_p_2015_v01_r00",
+        "link": "",
+        "codeSpace": ""
+      }
+    ],
+    "download_url": "https://sdi.eea.europa.eu/datashare/s/tnQp7HQqqSAWpWz/download",
+    "archive_bytes": 27342718,
+    "archive_sha256": "c0ab0539588410a14c7400c05b27182e78f91653b083a0e973dee8d425ed76d1",
+    "status": "downloaded",
+    "metrics": [
+      {
+        "metric": "o3_mda8_p932_ug_m3",
+        "pollutant": "o3",
+        "year": 2015,
+        "uuid": "ead3f70c-ba7e-4c2c-8073-f79a52bf1aae",
+        "source_key": "o3_2015",
+        "interim": false,
+        "filename": "EEA_1kmgrid_2015_o3_p932.tif",
+        "native_resolution_m": 1000.0,
+        "valid_cells": 79988,
+        "min": 0.0,
+        "max": 207.771,
+        "scale": 1.0,
+        "offset": 0.0
+      },
+      {
+        "metric": "o3_somo35_ug_m3_days",
+        "pollutant": "o3",
+        "year": 2015,
+        "uuid": "ead3f70c-ba7e-4c2c-8073-f79a52bf1aae",
+        "source_key": "o3_2015",
+        "interim": false,
+        "filename": "EEA_1kmgrid_2015_o3_somo35.tif",
+        "native_resolution_m": 1000.0,
+        "valid_cells": 79988,
+        "min": 0.0,
+        "max": 11898.31,
+        "scale": 1.0,
+        "offset": 0.0
+      }
+    ],
+    "source_key": "o3_2015",
+    "metadata_url": "https://sdi.eea.europa.eu/catalogue/srv/api/records/ead3f70c-ba7e-4c2c-8073-f79a52bf1aae",
+    "retrieved_date": "2026-09-28"
+  },
+  {
+    "pollutant": "pm25",
+    "year": 2016,
+    "uuid": "c9db4286-7131-4d7b-aaf8-9f74b2df515f",
+    "title": "PM2.5, European air quality data for 2016, (interpolated data), Apr. 2019",
+    "interim": false,
+    "identifier": [
+      {
+        "code": "eea_r_3035_1_km_aq-interpolated-pm25_p_2016_v01_r00",
+        "link": "",
+        "codeSpace": ""
+      }
+    ],
+    "download_url": "https://sdi.eea.europa.eu/datashare/s/gTPTBWPBn4stmSy/download",
+    "archive_bytes": 22402547,
+    "archive_sha256": "747e0ce8050be9bc1fb69296decbdb2de3ba12354bf5133c6e2dc776af8c2aa3",
+    "status": "downloaded",
+    "metrics": [
+      {
+        "metric": "pm25_annual_ug_m3",
+        "pollutant": "pm25",
+        "year": 2016,
+        "uuid": "c9db4286-7131-4d7b-aaf8-9f74b2df515f",
+        "source_key": "pm25_2016",
+        "interim": false,
+        "filename": "EEA_1kmgrid_2016_pm25_avg.tif",
+        "native_resolution_m": 1000.0,
+        "valid_cells": 79538,
+        "min": 3.8884201049804688,
+        "max": 29.034099578857422,
+        "scale": 1.0,
+        "offset": 0.0
+      }
+    ],
+    "source_key": "pm25_2016",
+    "metadata_url": "https://sdi.eea.europa.eu/catalogue/srv/api/records/c9db4286-7131-4d7b-aaf8-9f74b2df515f",
+    "retrieved_date": "2026-09-28"
+  },
+  {
+    "pollutant": "pm10",
+    "year": 2016,
+    "uuid": "c674ea94-54ca-40c7-b66b-cee446eeb0bc",
+    "title": "pm10, European air quality data for 2016, (interpolated data), Apr. 2019",
+    "interim": false,
+    "status": "downloaded",
+    "download_url": "https://sdi.eea.europa.eu/data/c674ea94-54ca-40c7-b66b-cee446eeb0bc",
+    "download_method": "public_webdav_range",
+    "files": [
+      {
+        "name": "EEA_1kmgrid_2016_pm10_avg.tif",
+        "bytes": 23480302,
+        "sha256": "08136d81a3d15563717b610be312e823d18b6a88570b65fc945f4f54dde9aa17"
+      },
+      {
+        "name": "EEA_1kmgrid_2016_pm10_p904.tif",
+        "bytes": 151146854,
+        "sha256": "e216b17350a8bcddff17653468427b4416879d2ca055357292d59bf81b949900"
+      },
+      {
+        "name": "README.md",
+        "bytes": 1274,
+        "sha256": "b2f3d3e57b58d7ea1da3ef1fcae4789caec2ee6757195a8672fdcb5c1224ddab"
+      }
+    ],
+    "metrics": [
+      {
+        "metric": "pm10_annual_ug_m3",
+        "pollutant": "pm10",
+        "year": 2016,
+        "uuid": "c674ea94-54ca-40c7-b66b-cee446eeb0bc",
+        "source_key": "pm10_2016",
+        "interim": false,
+        "filename": "EEA_1kmgrid_2016_pm10_avg.tif",
+        "native_resolution_m": 1000.0,
+        "valid_cells": 79538,
+        "min": 6.9870100021362305,
+        "max": 41.226600646972656,
+        "scale": 1.0,
+        "offset": 0.0
+      },
+      {
+        "metric": "pm10_daily_p904_ug_m3",
+        "pollutant": "pm10",
+        "year": 2016,
+        "uuid": "c674ea94-54ca-40c7-b66b-cee446eeb0bc",
+        "source_key": "pm10_2016",
+        "interim": false,
+        "filename": "EEA_1kmgrid_2016_pm10_p904.tif",
+        "native_resolution_m": 1000.0,
+        "valid_cells": 79538,
+        "min": 15.284,
+        "max": 90.908,
+        "scale": 1.0,
+        "offset": 0.0
+      }
+    ],
+    "source_key": "pm10_2016",
+    "metadata_url": "https://sdi.eea.europa.eu/catalogue/srv/api/records/c674ea94-54ca-40c7-b66b-cee446eeb0bc",
+    "retrieved_date": "2026-09-28"
+  },
+  {
+    "pollutant": "no2",
+    "year": 2016,
+    "uuid": "6851add4-022b-4bf3-9d49-f5598aeb5e7c",
+    "title": "NO2, European air quality data for 2016, (interpolated data), Apr. 2019",
+    "interim": false,
+    "identifier": [
+      {
+        "code": "eea_r_3035_1_km_aq-interpolated-NO2_p_2016_v01_r00",
+        "link": "",
+        "codeSpace": ""
+      }
+    ],
+    "download_url": "https://sdi.eea.europa.eu/datashare/s/WEHWgTRJQKfME2f/download",
+    "archive_bytes": 462634211,
+    "archive_sha256": "e70be1347764cb7caa073d4569212f34b344bb90e71e2b711c9dc24c82fbb50e",
+    "status": "downloaded",
+    "metrics": [
+      {
+        "metric": "no2_annual_ug_m3",
+        "pollutant": "no2",
+        "year": 2016,
+        "uuid": "6851add4-022b-4bf3-9d49-f5598aeb5e7c",
+        "source_key": "no2_2016",
+        "interim": false,
+        "filename": "EEA_1kmgrid_2016_no2_avg.tif",
+        "native_resolution_m": 1000.0,
+        "valid_cells": 79538,
+        "min": 0.05,
+        "max": 53.635,
+        "scale": 1.0,
+        "offset": 0.0
+      }
+    ],
+    "source_key": "no2_2016",
+    "metadata_url": "https://sdi.eea.europa.eu/catalogue/srv/api/records/6851add4-022b-4bf3-9d49-f5598aeb5e7c",
+    "retrieved_date": "2026-09-28"
+  },
+  {
+    "pollutant": "o3",
+    "year": 2016,
+    "uuid": "b1ca63f6-58aa-4033-9586-58ebe374882a",
+    "title": "O3, European air quality data for 2016, (interpolated data), Apr. 2019",
+    "interim": false,
+    "status": "downloaded",
+    "download_url": "https://sdi.eea.europa.eu/data/b1ca63f6-58aa-4033-9586-58ebe374882a",
+    "download_method": "public_webdav_range",
+    "files": [
+      {
+        "name": "EEA_1kmgrid_2016_o3_p932.tif",
+        "bytes": 151146854,
+        "sha256": "fef761af4f9936e7ad0a751df7a9553713594f3fdcc99422b894d93e975de013"
+      },
+      {
+        "name": "EEA_1kmgrid_2016_o3_somo35.tif",
+        "bytes": 151146854,
+        "sha256": "63245b27422716c54328ac0599c19e41fb3b7a1bb5dbe3261c6919f92d2ee8f4"
+      },
+      {
+        "name": "README.md",
+        "bytes": 1365,
+        "sha256": "866910cd56e507aa2feb84ece14da5d82fe4e3c50115e37b93e5552a7fc4d3b1"
+      }
+    ],
+    "metrics": [
+      {
+        "metric": "o3_mda8_p932_ug_m3",
+        "pollutant": "o3",
+        "year": 2016,
+        "uuid": "b1ca63f6-58aa-4033-9586-58ebe374882a",
+        "source_key": "o3_2016",
+        "interim": false,
+        "filename": "EEA_1kmgrid_2016_o3_p932.tif",
+        "native_resolution_m": 1000.0,
+        "valid_cells": 79538,
+        "min": 87.579,
+        "max": 163.787,
+        "scale": 1.0,
+        "offset": 0.0
+      },
+      {
+        "metric": "o3_somo35_ug_m3_days",
+        "pollutant": "o3",
+        "year": 2016,
+        "uuid": "b1ca63f6-58aa-4033-9586-58ebe374882a",
+        "source_key": "o3_2016",
+        "interim": false,
+        "filename": "EEA_1kmgrid_2016_o3_somo35.tif",
+        "native_resolution_m": 1000.0,
+        "valid_cells": 79538,
+        "min": 1407.05,
+        "max": 9519.32,
+        "scale": 1.0,
+        "offset": 0.0
+      }
+    ],
+    "source_key": "o3_2016",
+    "metadata_url": "https://sdi.eea.europa.eu/catalogue/srv/api/records/b1ca63f6-58aa-4033-9586-58ebe374882a",
+    "retrieved_date": "2026-09-28"
+  },
+  {
+    "pollutant": "pm25",
+    "year": 2017,
+    "uuid": "bc1ffac8-7be7-40b4-92aa-c0948c119771",
+    "title": "PM2.5, European air quality data for 2017, (interpolated data), Jan. 2020",
+    "interim": false,
+    "identifier": [
+      {
+        "code": "eea_r_3035_1_km_aq-interpolated-pm25_p_2017_v01_r00",
+        "link": "",
+        "codeSpace": ""
+      }
+    ],
+    "download_url": "https://sdi.eea.europa.eu/datashare/s/eiMLRySRyQZFfXX/download",
+    "archive_bytes": 83597732,
+    "archive_sha256": "a26abc184273213a1a87524b564d0b4f21077084e8452d2fd4eeddb19dd3d5e8",
+    "status": "downloaded",
+    "metrics": [
+      {
+        "metric": "pm25_annual_ug_m3",
+        "pollutant": "pm25",
+        "year": 2017,
+        "uuid": "bc1ffac8-7be7-40b4-92aa-c0948c119771",
+        "source_key": "pm25_2017",
+        "interim": false,
+        "filename": "EEA_1kmgrid_2017_pm25_avg.tif",
+        "native_resolution_m": 1000.0,
+        "valid_cells": 79538,
+        "min": 4.679110050201416,
+        "max": 34.226898193359375,
+        "scale": 1.0,
+        "offset": 0.0
+      }
+    ],
+    "source_key": "pm25_2017",
+    "metadata_url": "https://sdi.eea.europa.eu/catalogue/srv/api/records/bc1ffac8-7be7-40b4-92aa-c0948c119771",
+    "retrieved_date": "2026-09-28"
+  },
+  {
+    "pollutant": "pm10",
+    "year": 2017,
+    "uuid": "48288a9e-f054-4728-9a30-6c80d2b65330",
+    "title": "pm10, European air quality data for 2017, (interpolated data), Jan. 2020",
+    "interim": false,
+    "identifier": [
+      {
+        "code": "eea_r_3035_1_km_aq-interpolated-pm10_p_2017_v01_r00",
+        "link": "",
+        "codeSpace": ""
+      }
+    ],
+    "download_url": "https://sdi.eea.europa.eu/datashare/s/n4JgmrEJjmqgtTJ/download",
+    "archive_bytes": 160124423,
+    "archive_sha256": "7809e4c847d16ea7473621df4117a3ba4c01bdcb886fc0e6f721b6ca9c54042a",
+    "status": "downloaded",
+    "metrics": [
+      {
+        "metric": "pm10_annual_ug_m3",
+        "pollutant": "pm10",
+        "year": 2017,
+        "uuid": "48288a9e-f054-4728-9a30-6c80d2b65330",
+        "source_key": "pm10_2017",
+        "interim": false,
+        "filename": "EEA_1kmgrid_2017_pm10_avg.tif",
+        "native_resolution_m": 1000.0,
+        "valid_cells": 79538,
+        "min": 6.567309856414795,
+        "max": 47.25120162963867,
+        "scale": 1.0,
+        "offset": 0.0
+      },
+      {
+        "metric": "pm10_daily_p904_ug_m3",
+        "pollutant": "pm10",
+        "year": 2017,
+        "uuid": "48288a9e-f054-4728-9a30-6c80d2b65330",
+        "source_key": "pm10_2017",
+        "interim": false,
+        "filename": "EEA_1kmgrid_2017_pm10_p904.tif",
+        "native_resolution_m": 1000.0,
+        "valid_cells": 79538,
+        "min": 10.72920036315918,
+        "max": 100.66600036621094,
+        "scale": 1.0,
+        "offset": 0.0
+      }
+    ],
+    "source_key": "pm10_2017",
+    "metadata_url": "https://sdi.eea.europa.eu/catalogue/srv/api/records/48288a9e-f054-4728-9a30-6c80d2b65330",
+    "retrieved_date": "2026-09-28"
+  },
+  {
+    "pollutant": "no2",
+    "year": 2017,
+    "uuid": "b5730122-140e-42a0-b9fd-fc7a9bc286fa",
+    "title": "NO2, European air quality data for 2017, (interpolated data), Jan. 2020",
+    "interim": false,
+    "identifier": [
+      {
+        "code": "eea_r_3035_1_km_aq-interpolated-NO2_p_2017_v01_r00",
+        "link": "",
+        "codeSpace": ""
+      }
+    ],
+    "download_url": "https://sdi.eea.europa.eu/datashare/s/WXyX9Hbdc3fakWB/download",
+    "archive_bytes": 84820904,
+    "archive_sha256": "cff3caf0a9a8d600e836c44082406611bc3f8746e42cc9928f26e599a803d79d",
+    "status": "downloaded",
+    "metrics": [
+      {
+        "metric": "no2_annual_ug_m3",
+        "pollutant": "no2",
+        "year": 2017,
+        "uuid": "b5730122-140e-42a0-b9fd-fc7a9bc286fa",
+        "source_key": "no2_2017",
+        "interim": false,
+        "filename": "EEA_1kmgrid_2017_no2_avg.tif",
+        "native_resolution_m": 1000.0,
+        "valid_cells": 79538,
+        "min": 0.05000000074505806,
+        "max": 54.43450164794922,
+        "scale": 1.0,
+        "offset": 0.0
+      }
+    ],
+    "source_key": "no2_2017",
+    "metadata_url": "https://sdi.eea.europa.eu/catalogue/srv/api/records/b5730122-140e-42a0-b9fd-fc7a9bc286fa",
+    "retrieved_date": "2026-09-28"
+  },
+  {
+    "pollutant": "o3",
+    "year": 2017,
+    "uuid": "a9c95f7c-c293-4297-ac9b-91527189c7a3",
+    "title": "O3, European air quality data for 2017, (interpolated data), Jan. 2020",
+    "interim": false,
+    "identifier": [
+      {
+        "code": "eea_r_3035_1_km_aq-interpolated-O3_p_2017_v01_r00",
+        "link": "",
+        "codeSpace": ""
+      }
+    ],
+    "download_url": "https://sdi.eea.europa.eu/datashare/s/Z5QFgdErqapmXME/download",
+    "archive_bytes": 269798503,
+    "archive_sha256": "28ed22f90e2051b54173577d0cc1d9fbdfc723bb4a4920730ef11c8a631d8e04",
+    "status": "downloaded",
+    "metrics": [
+      {
+        "metric": "o3_mda8_p932_ug_m3",
+        "pollutant": "o3",
+        "year": 2017,
+        "uuid": "a9c95f7c-c293-4297-ac9b-91527189c7a3",
+        "source_key": "o3_2017",
+        "interim": false,
+        "filename": "EEA_1kmgrid_2017_o3_p932.tif",
+        "native_resolution_m": 1000.0,
+        "valid_cells": 79538,
+        "min": 82.45785522460938,
+        "max": 173.12982177734375,
+        "scale": 1.0,
+        "offset": 0.0
+      },
+      {
+        "metric": "o3_somo10_ug_m3_days",
+        "pollutant": "o3",
+        "year": 2017,
+        "uuid": "a9c95f7c-c293-4297-ac9b-91527189c7a3",
+        "source_key": "o3_2017",
+        "interim": false,
+        "filename": "EEA_1kmgrid_2017_o3_somo10.tif",
+        "native_resolution_m": 1000.0,
+        "valid_cells": 79538,
+        "min": 13230.4677734375,
+        "max": 28761.7578125,
+        "scale": 1.0,
+        "offset": 0.0
+      },
+      {
+        "metric": "o3_somo35_ug_m3_days",
+        "pollutant": "o3",
+        "year": 2017,
+        "uuid": "a9c95f7c-c293-4297-ac9b-91527189c7a3",
+        "source_key": "o3_2017",
+        "interim": false,
+        "filename": "EEA_1kmgrid_2017_o3_somo35.tif",
+        "native_resolution_m": 1000.0,
+        "valid_cells": 79538,
+        "min": 1092.75537109375,
+        "max": 11911.966796875,
+        "scale": 1.0,
+        "offset": 0.0
+      }
+    ],
+    "source_key": "o3_2017",
+    "metadata_url": "https://sdi.eea.europa.eu/catalogue/srv/api/records/a9c95f7c-c293-4297-ac9b-91527189c7a3",
+    "retrieved_date": "2026-09-28"
+  },
+  {
+    "pollutant": "pm25",
+    "year": 2018,
+    "uuid": "c9759c4b-17ed-4e60-9221-434b0be81fce",
+    "title": "PM2.5, European air quality data for 2018, (interpolated data), Jan. 2021",
+    "interim": false,
+    "identifier": [
+      {
+        "code": "eea_r_3035_1_km_aq-interpolated-pm25_p_2018_v01_r00",
+        "link": "",
+        "codeSpace": ""
+      }
+    ],
+    "download_url": "https://sdi.eea.europa.eu/datashare/s/YjzqEpo4mtgEbJT/download",
+    "archive_bytes": 26377175,
+    "archive_sha256": "24fc5237346c128e66152a5fae96ff38be0865668b4edc352d013cfb9c2cdb8c",
+    "status": "downloaded",
+    "metrics": [
+      {
+        "metric": "pm25_annual_ug_m3",
+        "pollutant": "pm25",
+        "year": 2018,
+        "uuid": "c9759c4b-17ed-4e60-9221-434b0be81fce",
+        "source_key": "pm25_2018",
+        "interim": false,
+        "filename": "pm25_avg_18.tif",
+        "native_resolution_m": 1000.0,
+        "valid_cells": 79538,
+        "min": 3.4067399501800537,
+        "max": 25.78529930114746,
+        "scale": 1.0,
+        "offset": 0.0
+      }
+    ],
+    "source_key": "pm25_2018",
+    "metadata_url": "https://sdi.eea.europa.eu/catalogue/srv/api/records/c9759c4b-17ed-4e60-9221-434b0be81fce",
+    "retrieved_date": "2026-09-28"
+  },
+  {
+    "pollutant": "pm10",
+    "year": 2018,
+    "uuid": "7986b2b9-2a56-49de-acbd-f86ec8fc97f5",
+    "title": "pm10, European air quality data for 2018, (interpolated data), Jan. 2021",
+    "interim": false,
+    "identifier": [
+      {
+        "code": "eea_r_3035_1_km_aq-interpolated-pm10_p_2018_v01_r00",
+        "link": "",
+        "codeSpace": ""
+      }
+    ],
+    "download_url": "https://sdi.eea.europa.eu/datashare/s/igmK7QiymrnTzEd/download",
+    "archive_bytes": 49221279,
+    "archive_sha256": "28ea8939e0f396d2f399573cde298e0f42de8c0c1780158c03c6b13bb84e1efb",
+    "status": "downloaded",
+    "metrics": [
+      {
+        "metric": "pm10_annual_ug_m3",
+        "pollutant": "pm10",
+        "year": 2018,
+        "uuid": "7986b2b9-2a56-49de-acbd-f86ec8fc97f5",
+        "source_key": "pm10_2018",
+        "interim": false,
+        "filename": "pm10_avg_18.tif",
+        "native_resolution_m": 1000.0,
+        "valid_cells": 79538,
+        "min": 7.654409885406494,
+        "max": 37.79840087890625,
+        "scale": 1.0,
+        "offset": 0.0
+      },
+      {
+        "metric": "pm10_daily_p904_ug_m3",
+        "pollutant": "pm10",
+        "year": 2018,
+        "uuid": "7986b2b9-2a56-49de-acbd-f86ec8fc97f5",
+        "source_key": "pm10_2018",
+        "interim": false,
+        "filename": "pm10_p904_18.tif",
+        "native_resolution_m": 1000.0,
+        "valid_cells": 79538,
+        "min": 14.0,
+        "max": 67.42960357666016,
+        "scale": 1.0,
+        "offset": 0.0
+      }
+    ],
+    "source_key": "pm10_2018",
+    "metadata_url": "https://sdi.eea.europa.eu/catalogue/srv/api/records/7986b2b9-2a56-49de-acbd-f86ec8fc97f5",
+    "retrieved_date": "2026-09-28"
+  },
+  {
+    "pollutant": "no2",
+    "year": 2018,
+    "uuid": "8a4b37a7-9307-423e-aa43-eb2950f01acb",
+    "title": "NO2, European air quality data for 2018, (interpolated data), Jan. 2021",
+    "interim": false,
+    "identifier": [
+      {
+        "code": "eea_r_3035_1_km_aq-interpolated-NO2_p_2018_v01_r00",
+        "link": "",
+        "codeSpace": ""
+      }
+    ],
+    "download_url": "https://sdi.eea.europa.eu/datashare/s/PLWeZYnJSBctCzg/download",
+    "archive_bytes": 33887217,
+    "archive_sha256": "0a69b17d6a85b038ae26335813479b9460361b650c2729e2dbbf4e7cbc2b9ee5",
+    "status": "downloaded",
+    "metrics": [
+      {
+        "metric": "no2_annual_ug_m3",
+        "pollutant": "no2",
+        "year": 2018,
+        "uuid": "8a4b37a7-9307-423e-aa43-eb2950f01acb",
+        "source_key": "no2_2018",
+        "interim": false,
+        "filename": "no2_avg_18.tif",
+        "native_resolution_m": 1000.0,
+        "valid_cells": 79538,
+        "min": 0.05000000074505806,
+        "max": 49.0265998840332,
+        "scale": 1.0,
+        "offset": 0.0
+      }
+    ],
+    "source_key": "no2_2018",
+    "metadata_url": "https://sdi.eea.europa.eu/catalogue/srv/api/records/8a4b37a7-9307-423e-aa43-eb2950f01acb",
+    "retrieved_date": "2026-09-28"
+  },
+  {
+    "pollutant": "o3",
+    "year": 2018,
+    "uuid": "9a69e09b-4c82-46f2-97aa-2b24a17aa169",
+    "title": "O3, European air quality data for 2018, (interpolated data), Jan. 2021",
+    "interim": false,
+    "identifier": [
+      {
+        "code": "eea_r_3035_1_km_aq-interpolated-O3_p_2018_v01_r00",
+        "link": "",
+        "codeSpace": ""
+      }
+    ],
+    "download_url": "https://sdi.eea.europa.eu/datashare/s/S9QfsfeSBmx2so5/download",
+    "archive_bytes": 67099573,
+    "archive_sha256": "33a4a14796328737fa3316766258d3eff59de60fbdcb66c1fda98e77675e77f8",
+    "status": "downloaded",
+    "metrics": [
+      {
+        "metric": "o3_mda8_p932_ug_m3",
+        "pollutant": "o3",
+        "year": 2018,
+        "uuid": "9a69e09b-4c82-46f2-97aa-2b24a17aa169",
+        "source_key": "o3_2018",
+        "interim": false,
+        "filename": "o3_p932_18.tif",
+        "native_resolution_m": 1000.0,
+        "valid_cells": 79538,
+        "min": 86.60417938232422,
+        "max": 166.41998291015625,
+        "scale": 1.0,
+        "offset": 0.0
+      },
+      {
+        "metric": "o3_somo10_ug_m3_days",
+        "pollutant": "o3",
+        "year": 2018,
+        "uuid": "9a69e09b-4c82-46f2-97aa-2b24a17aa169",
+        "source_key": "o3_2018",
+        "interim": false,
+        "filename": "o3_s10_18.tif",
+        "native_resolution_m": 1000.0,
+        "valid_cells": 79538,
+        "min": 15285.7255859375,
+        "max": 27128.5078125,
+        "scale": 1.0,
+        "offset": 0.0
+      },
+      {
+        "metric": "o3_somo35_ug_m3_days",
+        "pollutant": "o3",
+        "year": 2018,
+        "uuid": "9a69e09b-4c82-46f2-97aa-2b24a17aa169",
+        "source_key": "o3_2018",
+        "interim": false,
+        "filename": "o3_s35_18.tif",
+        "native_resolution_m": 1000.0,
+        "valid_cells": 79538,
+        "min": 2329.50341796875,
+        "max": 10390.33203125,
+        "scale": 1.0,
+        "offset": 0.0
+      }
+    ],
+    "source_key": "o3_2018",
+    "metadata_url": "https://sdi.eea.europa.eu/catalogue/srv/api/records/9a69e09b-4c82-46f2-97aa-2b24a17aa169",
+    "retrieved_date": "2026-09-28"
+  },
+  {
+    "pollutant": "pm25",
+    "year": 2019,
+    "uuid": "2c702e20-b274-48aa-bbd9-3f1df48d5004",
+    "title": "PM2.5, European air quality data for 2019 (interpolated data), Mar. 2022",
+    "interim": false,
+    "identifier": [
+      {
+        "code": "eea_r_3035_1_km_aq-interpolated-pm25_p_2019_v01_r00",
+        "link": "",
+        "codeSpace": ""
+      }
+    ],
+    "download_url": "https://sdi.eea.europa.eu/datashare/s/kjyDs2siAE5wBd8/download",
+    "archive_bytes": 79793094,
+    "archive_sha256": "bffaf989da365dc868e7f71822eff145a55594e37616e9e99d7dcda3583091ee",
+    "status": "downloaded",
+    "metrics": [
+      {
+        "metric": "pm25_annual_ug_m3",
+        "pollutant": "pm25",
+        "year": 2019,
+        "uuid": "2c702e20-b274-48aa-bbd9-3f1df48d5004",
+        "source_key": "pm25_2019",
+        "interim": false,
+        "filename": "pm25_avg19.tif",
+        "native_resolution_m": 1000.0,
+        "valid_cells": 79538,
+        "min": 2.7564778327941895,
+        "max": 23.201805114746094,
+        "scale": 1.0,
+        "offset": 0.0
+      }
+    ],
+    "source_key": "pm25_2019",
+    "metadata_url": "https://sdi.eea.europa.eu/catalogue/srv/api/records/2c702e20-b274-48aa-bbd9-3f1df48d5004",
+    "retrieved_date": "2026-09-28"
+  },
+  {
+    "pollutant": "pm10",
+    "year": 2019,
+    "uuid": "d1c21877-2ca2-4ed0-82b5-baa96ad4907a",
+    "title": "PM10, European air quality data for 2019 (1 km interpolated data), Mar. 2022",
+    "interim": false,
+    "identifier": [
+      {
+        "code": "eea_r_3035_1_km_aq-interpolated-pm10_p_2019_v01_r00",
+        "link": "",
+        "codeSpace": ""
+      }
+    ],
+    "download_url": "https://sdi.eea.europa.eu/datashare/s/85FaSmmcfwnAXQ8/download",
+    "archive_bytes": 80038362,
+    "archive_sha256": "1fc1ac002c9b9fad113fc2aaf15a97ed8d80e0c786a1fe7c11d5ed401063c384",
+    "status": "downloaded",
+    "metrics": [
+      {
+        "metric": "pm10_annual_ug_m3",
+        "pollutant": "pm10",
+        "year": 2019,
+        "uuid": "d1c21877-2ca2-4ed0-82b5-baa96ad4907a",
+        "source_key": "pm10_2019",
+        "interim": false,
+        "filename": "pm10_avg19.tif",
+        "native_resolution_m": 1000.0,
+        "valid_cells": 79538,
+        "min": 7.343815326690674,
+        "max": 32.82676315307617,
+        "scale": 1.0,
+        "offset": 0.0
+      }
+    ],
+    "source_key": "pm10_2019",
+    "metadata_url": "https://sdi.eea.europa.eu/catalogue/srv/api/records/d1c21877-2ca2-4ed0-82b5-baa96ad4907a",
+    "retrieved_date": "2026-09-28"
+  },
+  {
+    "pollutant": "no2",
+    "year": 2019,
+    "uuid": "eb906aba-0954-41be-a74e-30fcb699398d",
+    "title": "NO2, European air quality data for 2019 (interpolated data), Mar. 2022",
+    "interim": false,
+    "identifier": [
+      {
+        "code": "eea_r_3035_1_km_aq-interpolated-NO2_p_2019_v01_r00",
+        "link": "",
+        "codeSpace": ""
+      }
+    ],
+    "download_url": "https://sdi.eea.europa.eu/datashare/s/wwCN7qx6AcQDi5b/download",
+    "archive_bytes": 87014655,
+    "archive_sha256": "7d57054c2287318fa3228eea2234b205407d7c19d11afb11887773d706bf6f36",
+    "status": "downloaded",
+    "metrics": [
+      {
+        "metric": "no2_annual_ug_m3",
+        "pollutant": "no2",
+        "year": 2019,
+        "uuid": "eb906aba-0954-41be-a74e-30fcb699398d",
+        "source_key": "no2_2019",
+        "interim": false,
+        "filename": "no2_avg19.tif",
+        "native_resolution_m": 1000.0,
+        "valid_cells": 79538,
+        "min": 0.05000000074505806,
+        "max": 49.23720169067383,
+        "scale": 1.0,
+        "offset": 0.0
+      }
+    ],
+    "source_key": "no2_2019",
+    "metadata_url": "https://sdi.eea.europa.eu/catalogue/srv/api/records/eb906aba-0954-41be-a74e-30fcb699398d",
+    "retrieved_date": "2026-09-28"
+  },
+  {
+    "pollutant": "o3",
+    "year": 2019,
+    "uuid": "289a4582-b060-4aae-bb17-c056f309816b",
+    "title": "O3, European air quality data for 2019 (interpolated data), Mar. 2022",
+    "interim": false,
+    "identifier": [
+      {
+        "code": "eea_r_3035_1_km_aq-interpolated-O3_p_2019_v01_r00",
+        "link": "",
+        "codeSpace": ""
+      }
+    ],
+    "download_url": "https://sdi.eea.europa.eu/datashare/s/EEwfo4KSjAHE7C3/download",
+    "archive_bytes": 39057330,
+    "archive_sha256": "914a3f8f694278a849b2be09a25bc59144584a893ebd08b34a813c7ec8f2fbff",
+    "status": "downloaded",
+    "metrics": [
+      {
+        "metric": "o3_mda8_p932_ug_m3",
+        "pollutant": "o3",
+        "year": 2019,
+        "uuid": "289a4582-b060-4aae-bb17-c056f309816b",
+        "source_key": "o3_2019",
+        "interim": false,
+        "filename": "o3_p932.tif",
+        "native_resolution_m": 1000.0,
+        "valid_cells": 79538,
+        "min": 92.63520812988281,
+        "max": 167.54156494140625,
+        "scale": 1.0,
+        "offset": 0.0
+      },
+      {
+        "metric": "o3_somo10_ug_m3_days",
+        "pollutant": "o3",
+        "year": 2019,
+        "uuid": "289a4582-b060-4aae-bb17-c056f309816b",
+        "source_key": "o3_2019",
+        "interim": false,
+        "filename": "o3_s10_19.tif",
+        "native_resolution_m": 1000.0,
+        "valid_cells": 79538,
+        "min": 15366.75,
+        "max": 28763.2890625,
+        "scale": 1.0,
+        "offset": 0.0
+      },
+      {
+        "metric": "o3_somo35_ug_m3_days",
+        "pollutant": "o3",
+        "year": 2019,
+        "uuid": "289a4582-b060-4aae-bb17-c056f309816b",
+        "source_key": "o3_2019",
+        "interim": false,
+        "filename": "o3_s35_19.tif",
+        "native_resolution_m": 1000.0,
+        "valid_cells": 79538,
+        "min": 2336.8115234375,
+        "max": 10405.970703125,
+        "scale": 1.0,
+        "offset": 0.0
+      }
+    ],
+    "source_key": "o3_2019",
+    "metadata_url": "https://sdi.eea.europa.eu/catalogue/srv/api/records/289a4582-b060-4aae-bb17-c056f309816b",
+    "retrieved_date": "2026-09-28"
+  },
+  {
+    "pollutant": "pm25",
+    "year": 2020,
+    "uuid": "dfe175d5-b3d6-48ab-b17c-0ee9638f7d4e",
+    "title": "PM2.5, European air quality data for 2020, (interpolated data)",
+    "interim": false,
+    "identifier": [
+      {
+        "code": "eea_r_3035_1_km_aq-interpolated-pm25_p_2020_v01_r00",
+        "link": "",
+        "codeSpace": ""
+      }
+    ],
+    "download_url": "https://sdi.eea.europa.eu/datashare/s/XdGyL6ifDcstz8P/download",
+    "archive_bytes": 23474329,
+    "archive_sha256": "0227bc9682ac8fd5e96748958ebe38b5b361a01c081676e7e2fd4f158e2107e7",
+    "status": "downloaded",
+    "metrics": [
+      {
+        "metric": "pm25_annual_ug_m3",
+        "pollutant": "pm25",
+        "year": 2020,
+        "uuid": "dfe175d5-b3d6-48ab-b17c-0ee9638f7d4e",
+        "source_key": "pm25_2020",
+        "interim": false,
+        "filename": "EEA_1kmgrid_2020_pm25_avg.tif",
+        "native_resolution_m": 1000.0,
+        "valid_cells": 79538,
+        "min": 3.586750030517578,
+        "max": 24.45840072631836,
+        "scale": 1.0,
+        "offset": 0.0
+      }
+    ],
+    "source_key": "pm25_2020",
+    "metadata_url": "https://sdi.eea.europa.eu/catalogue/srv/api/records/dfe175d5-b3d6-48ab-b17c-0ee9638f7d4e",
+    "retrieved_date": "2026-09-28"
+  },
+  {
+    "pollutant": "pm10",
+    "year": 2020,
+    "uuid": "cd588ddb-db28-4383-9b05-bc25e89fd68b",
+    "title": "pm10, European air quality data for 2020, (1 km interpolated data)",
+    "interim": false,
+    "identifier": [
+      {
+        "code": "eea_r_3035_1_km_aq-interpolated-pm10_p_2020_v01_r00",
+        "link": "",
+        "codeSpace": ""
+      }
+    ],
+    "download_url": "https://sdi.eea.europa.eu/datashare/s/noXBcJewArcKJiX/download",
+    "archive_bytes": 54117173,
+    "archive_sha256": "cb00c27e7d26e8f031d50a00856948cd4eccf2511a26766da8f15ee869f72131",
+    "status": "downloaded",
+    "metrics": [
+      {
+        "metric": "pm10_annual_ug_m3",
+        "pollutant": "pm10",
+        "year": 2020,
+        "uuid": "cd588ddb-db28-4383-9b05-bc25e89fd68b",
+        "source_key": "pm10_2020",
+        "interim": false,
+        "filename": "EEA_1kmgrid_2020_pm10_avg.tif",
+        "native_resolution_m": 1000.0,
+        "valid_cells": 79538,
+        "min": 7.96852970123291,
+        "max": 34.257625579833984,
+        "scale": 1.0,
+        "offset": 0.0
+      },
+      {
+        "metric": "pm10_daily_p904_ug_m3",
+        "pollutant": "pm10",
+        "year": 2020,
+        "uuid": "cd588ddb-db28-4383-9b05-bc25e89fd68b",
+        "source_key": "pm10_2020",
+        "interim": false,
+        "filename": "pm10_p904_20.tif",
+        "native_resolution_m": 1000.0,
+        "valid_cells": 79538,
+        "min": 14.504592895507812,
+        "max": 67.54427337646484,
+        "scale": 1.0,
+        "offset": 0.0
+      }
+    ],
+    "source_key": "pm10_2020",
+    "metadata_url": "https://sdi.eea.europa.eu/catalogue/srv/api/records/cd588ddb-db28-4383-9b05-bc25e89fd68b",
+    "retrieved_date": "2026-09-28"
+  },
+  {
+    "pollutant": "no2",
+    "year": 2020,
+    "uuid": "25f13624-3465-4de5-b1d3-1a479a4fe51b",
+    "title": "NO2, European air quality data for 2020, (interpolated data)",
+    "interim": false,
+    "identifier": [
+      {
+        "code": "eea_r_3035_1_km_aq-interpolated-NO2_p_2020_v01_r00",
+        "link": "",
+        "codeSpace": ""
+      }
+    ],
+    "download_url": "https://sdi.eea.europa.eu/datashare/s/5ZifzeyxKesogsp/download",
+    "archive_bytes": 27905978,
+    "archive_sha256": "99b6358156e3d079bfbff54c5df1625a04cdb5cd7f12d2cff56407ce6a98b3f9",
+    "status": "downloaded",
+    "metrics": [
+      {
+        "metric": "no2_annual_ug_m3",
+        "pollutant": "no2",
+        "year": 2020,
+        "uuid": "25f13624-3465-4de5-b1d3-1a479a4fe51b",
+        "source_key": "no2_2020",
+        "interim": false,
+        "filename": "EEA_1kmgrid_2020_no2_avg.tif",
+        "native_resolution_m": 1000.0,
+        "valid_cells": 79538,
+        "min": 0.05000000074505806,
+        "max": 42.903045654296875,
+        "scale": 1.0,
+        "offset": 0.0
+      }
+    ],
+    "source_key": "no2_2020",
+    "metadata_url": "https://sdi.eea.europa.eu/catalogue/srv/api/records/25f13624-3465-4de5-b1d3-1a479a4fe51b",
+    "retrieved_date": "2026-09-28"
+  },
+  {
+    "pollutant": "o3",
+    "year": 2020,
+    "uuid": "1e999340-24d9-4896-9f29-7564277728b2",
+    "title": "O3, European air quality data for 2020, (interpolated data)",
+    "interim": false,
+    "identifier": [
+      {
+        "code": "eea_r_3035_1_km_aq-interpolated-O3_p_2020_v01_r00",
+        "link": "",
+        "codeSpace": ""
+      }
+    ],
+    "download_url": "https://sdi.eea.europa.eu/datashare/s/PZK8rptqPxdw92k/download",
+    "archive_bytes": 44207097,
+    "archive_sha256": "fcff5e39e6444a993857e588106ceec41107cded112e69c1c89dc4d9bcb32a80",
+    "status": "downloaded",
+    "metrics": [
+      {
+        "metric": "o3_somo10_ug_m3_days",
+        "pollutant": "o3",
+        "year": 2020,
+        "uuid": "1e999340-24d9-4896-9f29-7564277728b2",
+        "source_key": "o3_2020",
+        "interim": false,
+        "filename": "EEA_1kmgrid_2020_o3_somo10.tif",
+        "native_resolution_m": 1000.0,
+        "valid_cells": 79538,
+        "min": 14894.46484375,
+        "max": 25774.03125,
+        "scale": 1.0,
+        "offset": 0.0
+      },
+      {
+        "metric": "o3_somo35_ug_m3_days",
+        "pollutant": "o3",
+        "year": 2020,
+        "uuid": "1e999340-24d9-4896-9f29-7564277728b2",
+        "source_key": "o3_2020",
+        "interim": false,
+        "filename": "EEA_1kmgrid_2020_o3_somo35.tif",
+        "native_resolution_m": 1000.0,
+        "valid_cells": 79538,
+        "min": 2299.008056640625,
+        "max": 9539.037109375,
+        "scale": 1.0,
+        "offset": 0.0
+      },
+      {
+        "metric": "o3_mda8_p932_ug_m3",
+        "pollutant": "o3",
+        "year": 2020,
+        "uuid": "1e999340-24d9-4896-9f29-7564277728b2",
+        "source_key": "o3_2020",
+        "interim": false,
+        "filename": "o3_p932_20.tif",
+        "native_resolution_m": 1000.0,
+        "valid_cells": 79538,
+        "min": 97.2673568725586,
+        "max": 157.75732421875,
+        "scale": 1.0,
+        "offset": 0.0
+      }
+    ],
+    "source_key": "o3_2020",
+    "metadata_url": "https://sdi.eea.europa.eu/catalogue/srv/api/records/1e999340-24d9-4896-9f29-7564277728b2",
+    "retrieved_date": "2026-09-28"
+  },
+  {
+    "pollutant": "pm25",
+    "year": 2021,
+    "uuid": "c0ca09a4-d9fe-4772-bc48-90cf31639442",
+    "title": "PM2.5, European air quality data for 2021, (interpolated data), August 2023",
+    "interim": false,
+    "identifier": [
+      {
+        "code": "eea_r_3035_1_km_aq-interpolated-pm25_p_2021_v01_r00",
+        "link": "",
+        "codeSpace": ""
+      }
+    ],
+    "download_url": "https://sdi.eea.europa.eu/datashare/s/SxX32LiLnStzfGm/download",
+    "archive_bytes": 22976830,
+    "archive_sha256": "fb4a00f62ac4d0260b0372aed19f28c4bc48efbbddde0b1b40e6c3f10f8bde61",
+    "status": "downloaded",
+    "metrics": [
+      {
+        "metric": "pm25_annual_ug_m3",
+        "pollutant": "pm25",
+        "year": 2021,
+        "uuid": "c0ca09a4-d9fe-4772-bc48-90cf31639442",
+        "source_key": "pm25_2021",
+        "interim": false,
+        "filename": "EEA_1kmgrid_2021_pm25_avg.tif",
+        "native_resolution_m": 1000.0,
+        "valid_cells": 79538,
+        "min": 3.9389500617980957,
+        "max": 22.726299285888672,
+        "scale": 1.0,
+        "offset": 0.0
+      }
+    ],
+    "source_key": "pm25_2021",
+    "metadata_url": "https://sdi.eea.europa.eu/catalogue/srv/api/records/c0ca09a4-d9fe-4772-bc48-90cf31639442",
+    "retrieved_date": "2026-09-28"
+  },
+  {
+    "pollutant": "pm10",
+    "year": 2021,
+    "uuid": "d8eb9d11-d8eb-42bd-83b4-13ae917c1428",
+    "title": "pm10, European air quality data for 2021, (interpolated data), August 2023",
+    "interim": false,
+    "identifier": [
+      {
+        "code": "eea_r_3035_1_km_aq-interpolated-pm10_p_2021_v01_r00",
+        "link": "",
+        "codeSpace": ""
+      }
+    ],
+    "download_url": "https://sdi.eea.europa.eu/datashare/s/iARJ8pPTBrHTybH/download",
+    "archive_bytes": 54070817,
+    "archive_sha256": "059e798ba8137aca159c9aefc3b892b8b7b0b7ef5e7c84bcffa4040138478f4b",
+    "status": "downloaded",
+    "metrics": [
+      {
+        "metric": "pm10_annual_ug_m3",
+        "pollutant": "pm10",
+        "year": 2021,
+        "uuid": "d8eb9d11-d8eb-42bd-83b4-13ae917c1428",
+        "source_key": "pm10_2021",
+        "interim": false,
+        "filename": "pm10_avg21.tif",
+        "native_resolution_m": 1000.0,
+        "valid_cells": 79538,
+        "min": 8.844999313354492,
+        "max": 32.576171875,
+        "scale": 1.0,
+        "offset": 0.0
+      },
+      {
+        "metric": "pm10_daily_p904_ug_m3",
+        "pollutant": "pm10",
+        "year": 2021,
+        "uuid": "d8eb9d11-d8eb-42bd-83b4-13ae917c1428",
+        "source_key": "pm10_2021",
+        "interim": false,
+        "filename": "pm10_p90421.tif",
+        "native_resolution_m": 1000.0,
+        "valid_cells": 79538,
+        "min": 16.04497718811035,
+        "max": 61.92681121826172,
+        "scale": 1.0,
+        "offset": 0.0
+      }
+    ],
+    "source_key": "pm10_2021",
+    "metadata_url": "https://sdi.eea.europa.eu/catalogue/srv/api/records/d8eb9d11-d8eb-42bd-83b4-13ae917c1428",
+    "retrieved_date": "2026-09-28"
+  },
+  {
+    "pollutant": "no2",
+    "year": 2021,
+    "uuid": "1e0bef0b-9b28-4772-99f5-07439c1b81d8",
+    "title": "NO2, European air quality data for 2021, (interpolated data), August 2023",
+    "interim": false,
+    "identifier": [
+      {
+        "code": "eea_r_3035_1_km_aq-interpolated-no2_p_2021_v01_r00",
+        "link": "",
+        "codeSpace": ""
+      }
+    ],
+    "download_url": "https://sdi.eea.europa.eu/datashare/s/YoxKEwDk5zzA7Ke/download",
+    "archive_bytes": 28163110,
+    "archive_sha256": "b2375904a819c42b44ec665d3c5466bf991c760b2a41f78192a0079b4e48d979",
+    "status": "downloaded",
+    "metrics": [
+      {
+        "metric": "no2_annual_ug_m3",
+        "pollutant": "no2",
+        "year": 2021,
+        "uuid": "1e0bef0b-9b28-4772-99f5-07439c1b81d8",
+        "source_key": "no2_2021",
+        "interim": false,
+        "filename": "EEA_1kmgrid_2021_no2_avg.tif",
+        "native_resolution_m": 1000.0,
+        "valid_cells": 79538,
+        "min": 0.05000000074505806,
+        "max": 43.4444580078125,
+        "scale": 1.0,
+        "offset": 0.0
+      }
+    ],
+    "source_key": "no2_2021",
+    "metadata_url": "https://sdi.eea.europa.eu/catalogue/srv/api/records/1e0bef0b-9b28-4772-99f5-07439c1b81d8",
+    "retrieved_date": "2026-09-28"
+  },
+  {
+    "pollutant": "o3",
+    "year": 2021,
+    "uuid": "ca30f881-0132-4d09-bfd9-7e450ff376d5",
+    "title": "O3, European air quality data for 2021, (interpolated data), August 2023",
+    "interim": false,
+    "identifier": [
+      {
+        "code": "eea_r_3035_1_km_aq-interpolated-O3_p_2021_v01_r00",
+        "link": "",
+        "codeSpace": ""
+      }
+    ],
+    "download_url": "https://sdi.eea.europa.eu/datashare/s/oTspFqNen86MriA/download",
+    "archive_bytes": 41041098,
+    "archive_sha256": "a5e61049debdf58e4c27a3c1443389393b9ae9901df638381c79361ad92fcc5e",
+    "status": "downloaded",
+    "metrics": [
+      {
+        "metric": "o3_mda8_p932_ug_m3",
+        "pollutant": "o3",
+        "year": 2021,
+        "uuid": "ca30f881-0132-4d09-bfd9-7e450ff376d5",
+        "source_key": "o3_2021",
+        "interim": false,
+        "filename": "o3_p932_21.tif",
+        "native_resolution_m": 1000.0,
+        "valid_cells": 79538,
+        "min": 85.7756118774414,
+        "max": 154.43862915039062,
+        "scale": 1.0,
+        "offset": 0.0
+      },
+      {
+        "metric": "o3_somo10_ug_m3_days",
+        "pollutant": "o3",
+        "year": 2021,
+        "uuid": "ca30f881-0132-4d09-bfd9-7e450ff376d5",
+        "source_key": "o3_2021",
+        "interim": false,
+        "filename": "o3_s10_21.tif",
+        "native_resolution_m": 1000.0,
+        "valid_cells": 79538,
+        "min": 15858.9228515625,
+        "max": 26640.064453125,
+        "scale": 1.0,
+        "offset": 0.0
+      },
+      {
+        "metric": "o3_somo35_ug_m3_days",
+        "pollutant": "o3",
+        "year": 2021,
+        "uuid": "ca30f881-0132-4d09-bfd9-7e450ff376d5",
+        "source_key": "o3_2021",
+        "interim": false,
+        "filename": "o3_s35_21.tif",
+        "native_resolution_m": 1000.0,
+        "valid_cells": 79538,
+        "min": 1480.4300537109375,
+        "max": 8963.7060546875,
+        "scale": 1.0,
+        "offset": 0.0
+      }
+    ],
+    "source_key": "o3_2021",
+    "metadata_url": "https://sdi.eea.europa.eu/catalogue/srv/api/records/ca30f881-0132-4d09-bfd9-7e450ff376d5",
+    "retrieved_date": "2026-09-28"
+  },
+  {
+    "pollutant": "pm25",
+    "year": 2022,
+    "uuid": "c5b053c0-5999-416b-956c-68abf3b4492c",
+    "title": "PM2.5, European air quality data for 2022, (interpolated data), June 2024",
+    "interim": false,
+    "identifier": [
+      {
+        "code": "eea_r_3035_1_km_aq-interpolated-pm25_p_2022_v01_r00",
+        "link": "",
+        "codeSpace": ""
+      }
+    ],
+    "download_url": "https://sdi.eea.europa.eu/datashare/s/p57eimtYP7w9iyG/download",
+    "archive_bytes": 79822013,
+    "archive_sha256": "3342495aa4921e222f3fa996c225c6d895dee4d210c459779501cfb111953172",
+    "status": "downloaded",
+    "metrics": [
+      {
+        "metric": "pm25_annual_ug_m3",
+        "pollutant": "pm25",
+        "year": 2022,
+        "uuid": "c5b053c0-5999-416b-956c-68abf3b4492c",
+        "source_key": "pm25_2022",
+        "interim": false,
+        "filename": "pm25_avg_22.tif",
+        "native_resolution_m": 1000.0,
+        "valid_cells": 79538,
+        "min": 3.973599910736084,
+        "max": 24.65730094909668,
+        "scale": 1.0,
+        "offset": 0.0
+      }
+    ],
+    "source_key": "pm25_2022",
+    "metadata_url": "https://sdi.eea.europa.eu/catalogue/srv/api/records/c5b053c0-5999-416b-956c-68abf3b4492c",
+    "retrieved_date": "2026-09-28"
+  },
+  {
+    "pollutant": "pm10",
+    "year": 2022,
+    "uuid": "d987dfe6-8a4e-4ad1-a8b1-1b19fb7cc23f",
+    "title": "pm10, European air quality data for 2022, (interpolated data), June 2024",
+    "interim": false,
+    "status": "downloaded",
+    "download_url": "https://sdi.eea.europa.eu/data/d987dfe6-8a4e-4ad1-a8b1-1b19fb7cc23f",
+    "download_method": "public_webdav_range",
+    "files": [
+      {
+        "name": "pm10_avg_22.tif",
+        "bytes": 77626364,
+        "sha256": "b1f59eafd3bec3ff312a55743a8525e7f41f9a4d81e939d6add4845b1b624a9d"
+      },
+      {
+        "name": "pm10_p904_22.tif",
+        "bytes": 77626364,
+        "sha256": "4df1bbda45aae72a6fc3e3a6581c26e2bcc8bfc9b30af6a19513f048268878ff"
+      },
+      {
+        "name": "README.md",
+        "bytes": 1281,
+        "sha256": "64dfe70ab9a9abafaa10fc9656ac472df8107c82ff1f739ab7408f76171f37ea"
+      }
+    ],
+    "metrics": [
+      {
+        "metric": "pm10_annual_ug_m3",
+        "pollutant": "pm10",
+        "year": 2022,
+        "uuid": "d987dfe6-8a4e-4ad1-a8b1-1b19fb7cc23f",
+        "source_key": "pm10_2022",
+        "interim": false,
+        "filename": "pm10_avg_22.tif",
+        "native_resolution_m": 1000.0,
+        "valid_cells": 79538,
+        "min": 8.906362533569336,
+        "max": 33.876502990722656,
+        "scale": 1.0,
+        "offset": 0.0
+      },
+      {
+        "metric": "pm10_daily_p904_ug_m3",
+        "pollutant": "pm10",
+        "year": 2022,
+        "uuid": "d987dfe6-8a4e-4ad1-a8b1-1b19fb7cc23f",
+        "source_key": "pm10_2022",
+        "interim": false,
+        "filename": "pm10_p904_22.tif",
+        "native_resolution_m": 1000.0,
+        "valid_cells": 79538,
+        "min": 15.03003978729248,
+        "max": 60.90065002441406,
+        "scale": 1.0,
+        "offset": 0.0
+      }
+    ],
+    "source_key": "pm10_2022",
+    "metadata_url": "https://sdi.eea.europa.eu/catalogue/srv/api/records/d987dfe6-8a4e-4ad1-a8b1-1b19fb7cc23f",
+    "retrieved_date": "2026-09-28"
+  },
+  {
+    "pollutant": "no2",
+    "year": 2022,
+    "uuid": "9f624659-d559-4935-9a84-9a01f98fdc2d",
+    "title": "NO2, European air quality data for 2022, (interpolated data), June 2024",
+    "interim": false,
+    "identifier": [
+      {
+        "code": "eea_r_3035_1_km_aq-interpolated-no2_p_2022_v01_r00",
+        "link": "",
+        "codeSpace": ""
+      }
+    ],
+    "download_url": "https://sdi.eea.europa.eu/datashare/s/od4K3fgA6Wpj4PP/download",
+    "archive_bytes": 80174376,
+    "archive_sha256": "f774f01778ebc4df49013d6a6d85068621ceff3345c927d744ae929959aea0c9",
+    "status": "downloaded",
+    "metrics": [
+      {
+        "metric": "no2_annual_ug_m3",
+        "pollutant": "no2",
+        "year": 2022,
+        "uuid": "9f624659-d559-4935-9a84-9a01f98fdc2d",
+        "source_key": "no2_2022",
+        "interim": false,
+        "filename": "no2_avg_22.tif",
+        "native_resolution_m": 1000.0,
+        "valid_cells": 79538,
+        "min": 0.28324270248413086,
+        "max": 41.060272216796875,
+        "scale": 1.0,
+        "offset": 0.0
+      }
+    ],
+    "source_key": "no2_2022",
+    "metadata_url": "https://sdi.eea.europa.eu/catalogue/srv/api/records/9f624659-d559-4935-9a84-9a01f98fdc2d",
+    "retrieved_date": "2026-09-28"
+  },
+  {
+    "pollutant": "o3",
+    "year": 2022,
+    "uuid": "46903a2f-868b-4ae4-9bf1-adca102c8a42",
+    "title": "O3, European air quality data for 2022, (interpolated data), June 2024",
+    "interim": false,
+    "status": "downloaded",
+    "download_url": "https://sdi.eea.europa.eu/data/46903a2f-868b-4ae4-9bf1-adca102c8a42",
+    "download_method": "public_webdav_range",
+    "files": [
+      {
+        "name": "o3_p932_22.tif",
+        "bytes": 82215564,
+        "sha256": "8392519f04bcc9882e1192aac831429cd452edb75876d5d22534debac38fdb01"
+      },
+      {
+        "name": "o3_peak_22.tif",
+        "bytes": 82215564,
+        "sha256": "2feb7afcd1cff099bfdc638039465b59569d1ebd351916217a1b96464ee13f51"
+      },
+      {
+        "name": "o3_s10_22.tif",
+        "bytes": 82215564,
+        "sha256": "40c335563efeaabd4033a61e3de8e89a066052c7673111e993e92a73d10a3749"
+      },
+      {
+        "name": "o3_s35_22.tif",
+        "bytes": 82215564,
+        "sha256": "b91595ec114b9825f28cce1eccc2de1e932245d9e5128759a25a743915f0ae13"
+      },
+      {
+        "name": "README.md",
+        "bytes": 1661,
+        "sha256": "b1d7da68f519265f0cdea9250502300b30bcc887adaa735f9520ccc6b05e93de"
+      }
+    ],
+    "metrics": [
+      {
+        "metric": "o3_mda8_p932_ug_m3",
+        "pollutant": "o3",
+        "year": 2022,
+        "uuid": "46903a2f-868b-4ae4-9bf1-adca102c8a42",
+        "source_key": "o3_2022",
+        "interim": false,
+        "filename": "o3_p932_22.tif",
+        "native_resolution_m": 1000.0,
+        "valid_cells": 79538,
+        "min": 95.95186614990234,
+        "max": 169.74591064453125,
+        "scale": 1.0,
+        "offset": 0.0
+      },
+      {
+        "metric": "o3_peak_season_ug_m3",
+        "pollutant": "o3",
+        "year": 2022,
+        "uuid": "46903a2f-868b-4ae4-9bf1-adca102c8a42",
+        "source_key": "o3_2022",
+        "interim": false,
+        "filename": "o3_peak_22.tif",
+        "native_resolution_m": 1000.0,
+        "valid_cells": 79538,
+        "min": 77.94913482666016,
+        "max": 129.08824157714844,
+        "scale": 1.0,
+        "offset": 0.0
+      },
+      {
+        "metric": "o3_somo10_ug_m3_days",
+        "pollutant": "o3",
+        "year": 2022,
+        "uuid": "46903a2f-868b-4ae4-9bf1-adca102c8a42",
+        "source_key": "o3_2022",
+        "interim": false,
+        "filename": "o3_s10_22.tif",
+        "native_resolution_m": 1000.0,
+        "valid_cells": 79538,
+        "min": 16193.51171875,
+        "max": 28263.888671875,
+        "scale": 1.0,
+        "offset": 0.0
+      },
+      {
+        "metric": "o3_somo35_ug_m3_days",
+        "pollutant": "o3",
+        "year": 2022,
+        "uuid": "46903a2f-868b-4ae4-9bf1-adca102c8a42",
+        "source_key": "o3_2022",
+        "interim": false,
+        "filename": "o3_s35_22.tif",
+        "native_resolution_m": 1000.0,
+        "valid_cells": 79538,
+        "min": 2450.04443359375,
+        "max": 12205.283203125,
+        "scale": 1.0,
+        "offset": 0.0
+      }
+    ],
+    "source_key": "o3_2022",
+    "metadata_url": "https://sdi.eea.europa.eu/catalogue/srv/api/records/46903a2f-868b-4ae4-9bf1-adca102c8a42",
+    "retrieved_date": "2026-09-28"
+  },
+  {
+    "pollutant": "pm25",
+    "year": 2023,
+    "uuid": "57807f24-25dc-4df3-9468-dcff8cee5468",
+    "title": "PM2.5, European air quality data for 2023, (interpolated data), June 2025",
+    "interim": false,
+    "identifier": [
+      {
+        "code": "eea_r_3035_1_km_aq-interpolated-pm25_p_2023_v01_r00",
+        "link": "",
+        "codeSpace": ""
+      }
+    ],
+    "download_url": "https://sdi.eea.europa.eu/datashare/s/DdCEJKXn6zqgrpA/download",
+    "archive_bytes": 82761213,
+    "archive_sha256": "57d2b2e6f02549bfa63f0923f3e28ac6cc26e7ed6e525d5483606bf2df0ab2c7",
+    "status": "downloaded",
+    "metrics": [
+      {
+        "metric": "pm25_annual_ug_m3",
+        "pollutant": "pm25",
+        "year": 2023,
+        "uuid": "57807f24-25dc-4df3-9468-dcff8cee5468",
+        "source_key": "pm25_2023",
+        "interim": false,
+        "filename": "pm25_avg_23.tif",
+        "native_resolution_m": 1000.0000000000002,
+        "valid_cells": 79538,
+        "min": 3.2942700386047363,
+        "max": 21.642499923706055,
+        "scale": 1.0,
+        "offset": 0.0
+      }
+    ],
+    "source_key": "pm25_2023",
+    "metadata_url": "https://sdi.eea.europa.eu/catalogue/srv/api/records/57807f24-25dc-4df3-9468-dcff8cee5468",
+    "retrieved_date": "2026-09-28"
+  },
+  {
+    "pollutant": "pm10",
+    "year": 2023,
+    "uuid": "177d85ca-1664-4357-ad5e-7e7d598c5774",
+    "title": "PM10, European air quality data for 2023, (interpolated data), June 2025",
+    "interim": false,
+    "status": "downloaded",
+    "download_url": "https://sdi.eea.europa.eu/data/177d85ca-1664-4357-ad5e-7e7d598c5774",
+    "download_method": "public_webdav_range",
+    "files": [
+      {
+        "name": "pm10_avg_23.tif",
+        "bytes": 77637192,
+        "sha256": "b29eb0a0dacdf13f3763bd0dc8eda5d23214a9024c01595dbad02e9d53e4a28f"
+      },
+      {
+        "name": "pm10_p904_23.tif",
+        "bytes": 77637192,
+        "sha256": "8d433c3ef2e6bb740e38f246740164c52e8b63cbf342d955df8c32933bcd7670"
+      },
+      {
+        "name": "README.md",
+        "bytes": 1263,
+        "sha256": "ce5572d51226ae40f7daba356821a5c8e2b849eb26ce5e93689e6e510cc7cd79"
+      }
+    ],
+    "metrics": [
+      {
+        "metric": "pm10_annual_ug_m3",
+        "pollutant": "pm10",
+        "year": 2023,
+        "uuid": "177d85ca-1664-4357-ad5e-7e7d598c5774",
+        "source_key": "pm10_2023",
+        "interim": false,
+        "filename": "pm10_avg_23.tif",
+        "native_resolution_m": 1000.0,
+        "valid_cells": 79538,
+        "min": 7.703006744384766,
+        "max": 30.29987335205078,
+        "scale": 1.0,
+        "offset": 0.0
+      },
+      {
+        "metric": "pm10_daily_p904_ug_m3",
+        "pollutant": "pm10",
+        "year": 2023,
+        "uuid": "177d85ca-1664-4357-ad5e-7e7d598c5774",
+        "source_key": "pm10_2023",
+        "interim": false,
+        "filename": "pm10_p904_23.tif",
+        "native_resolution_m": 1000.0000000000005,
+        "valid_cells": 79538,
+        "min": 15.453185081481934,
+        "max": 54.617835998535156,
+        "scale": 1.0,
+        "offset": 0.0
+      }
+    ],
+    "source_key": "pm10_2023",
+    "metadata_url": "https://sdi.eea.europa.eu/catalogue/srv/api/records/177d85ca-1664-4357-ad5e-7e7d598c5774",
+    "retrieved_date": "2026-09-28"
+  },
+  {
+    "pollutant": "no2",
+    "year": 2023,
+    "uuid": "317cf5a5-9909-46b2-bc17-0d40ff3138eb",
+    "title": "NO2, European air quality data for 2023, (interpolated data), June 2025",
+    "interim": false,
+    "identifier": [
+      {
+        "code": "eea_r_3035_1_km_aq-interpolated-no2_p_2023_v01_r00",
+        "link": "",
+        "codeSpace": ""
+      }
+    ],
+    "download_url": "https://sdi.eea.europa.eu/datashare/s/YaMija7ycSY3kDt/download",
+    "archive_bytes": 78197793,
+    "archive_sha256": "ec0a8b76181e8ddccfaf9b08b869aeb4227b2092ccfaf025cc667977126adfe8",
+    "status": "downloaded",
+    "metrics": [
+      {
+        "metric": "no2_annual_ug_m3",
+        "pollutant": "no2",
+        "year": 2023,
+        "uuid": "317cf5a5-9909-46b2-bc17-0d40ff3138eb",
+        "source_key": "no2_2023",
+        "interim": false,
+        "filename": "no2_avg_23.tif",
+        "native_resolution_m": 1000.0000000000006,
+        "valid_cells": 79538,
+        "min": 0.05000000074505806,
+        "max": 38.636844635009766,
+        "scale": 1.0,
+        "offset": 0.0
+      }
+    ],
+    "source_key": "no2_2023",
+    "metadata_url": "https://sdi.eea.europa.eu/catalogue/srv/api/records/317cf5a5-9909-46b2-bc17-0d40ff3138eb",
+    "retrieved_date": "2026-09-28"
+  },
+  {
+    "pollutant": "o3",
+    "year": 2023,
+    "uuid": "0fd47f22-c899-4f76-979e-53386b67068e",
+    "title": "O3, European air quality data for 2023, (interpolated data), June 2025",
+    "interim": false,
+    "identifier": [
+      {
+        "code": "eea_r_3035_1_km_aq-interpolated-O3_p_2023_v01_r00",
+        "link": "",
+        "codeSpace": ""
+      }
+    ],
+    "download_url": "https://sdi.eea.europa.eu/datashare/s/wYKoPPpCZtAsLED/download",
+    "archive_bytes": 491964923,
+    "archive_sha256": "0031e063c77fc9f921ea2dc9e450a26931c78aed16f6904b24402f6610e73b4c",
+    "status": "downloaded",
+    "metrics": [
+      {
+        "metric": "o3_mda8_p932_ug_m3",
+        "pollutant": "o3",
+        "year": 2023,
+        "uuid": "0fd47f22-c899-4f76-979e-53386b67068e",
+        "source_key": "o3_2023",
+        "interim": false,
+        "filename": "o3_p932_23.tif",
+        "native_resolution_m": 1000.0000000000006,
+        "valid_cells": 79538,
+        "min": 96.3671875,
+        "max": 158.73947143554688,
+        "scale": 1.0,
+        "offset": 0.0
+      },
+      {
+        "metric": "o3_peak_season_ug_m3",
+        "pollutant": "o3",
+        "year": 2023,
+        "uuid": "0fd47f22-c899-4f76-979e-53386b67068e",
+        "source_key": "o3_2023",
+        "interim": false,
+        "filename": "o3_peak_23.tif",
+        "native_resolution_m": 1000.0000000000008,
+        "valid_cells": 79538,
+        "min": 77.4605484008789,
+        "max": 119.57999420166016,
+        "scale": 1.0,
+        "offset": 0.0
+      },
+      {
+        "metric": "o3_somo10_ug_m3_days",
+        "pollutant": "o3",
+        "year": 2023,
+        "uuid": "0fd47f22-c899-4f76-979e-53386b67068e",
+        "source_key": "o3_2023",
+        "interim": false,
+        "filename": "o3_s10_23.tif",
+        "native_resolution_m": 1000.0000000000006,
+        "valid_cells": 79538,
+        "min": 17529.38671875,
+        "max": 27264.46875,
+        "scale": 1.0,
+        "offset": 0.0
+      },
+      {
+        "metric": "o3_somo35_ug_m3_days",
+        "pollutant": "o3",
+        "year": 2023,
+        "uuid": "0fd47f22-c899-4f76-979e-53386b67068e",
+        "source_key": "o3_2023",
+        "interim": false,
+        "filename": "o3_s35_23.tif",
+        "native_resolution_m": 1000.0000000000006,
+        "valid_cells": 79538,
+        "min": 2781.9140625,
+        "max": 9855.02734375,
+        "scale": 1.0,
+        "offset": 0.0
+      }
+    ],
+    "source_key": "o3_2023",
+    "metadata_url": "https://sdi.eea.europa.eu/catalogue/srv/api/records/0fd47f22-c899-4f76-979e-53386b67068e",
+    "retrieved_date": "2026-09-28"
+  },
+  {
+    "pollutant": "pm25",
+    "year": 2024,
+    "uuid": "c3db03e4-82e9-4a40-acb1-a5bd15f11f8c",
+    "title": "PM2.5, European air quality data for 2024, (interpolated data), validated data, June 2026",
+    "interim": false,
+    "identifier": [
+      {
+        "code": "eea_r_3035_1_km_aq-interpolated-pm25_p_2024_v01_r00",
+        "link": "",
+        "codeSpace": ""
+      }
+    ],
+    "download_url": "https://sdi.eea.europa.eu/datashare/s/D9xrKSZSj3ci4tN/download",
+    "archive_bytes": 78199351,
+    "archive_sha256": "f3104ec30a33c8e80e7df44daaaeaecad7465fd6cf69aed193cfffdda208db7a",
+    "status": "downloaded",
+    "metrics": [
+      {
+        "metric": "pm25_annual_ug_m3",
+        "pollutant": "pm25",
+        "year": 2024,
+        "uuid": "c3db03e4-82e9-4a40-acb1-a5bd15f11f8c",
+        "source_key": "pm25_2024",
+        "interim": false,
+        "filename": "pm25_avg_24.tif",
+        "native_resolution_m": 1000.0000000000006,
+        "valid_cells": 79538,
+        "min": 3.5869998931884766,
+        "max": 22.018999099731445,
+        "scale": 1.0,
+        "offset": 0.0
+      }
+    ],
+    "source_key": "pm25_2024",
+    "metadata_url": "https://sdi.eea.europa.eu/catalogue/srv/api/records/c3db03e4-82e9-4a40-acb1-a5bd15f11f8c",
+    "retrieved_date": "2026-09-28"
+  },
+  {
+    "pollutant": "pm10",
+    "year": 2024,
+    "uuid": "7490d288-2b13-4421-bb91-471e1f8a8c84",
+    "title": "PM10, European air quality data for 2024, (interpolated data), validated data, June 2026",
+    "interim": false,
+    "identifier": [
+      {
+        "code": "eea_r_3035_1_km_aq-interpolated-pm10_p_2024_v01_r00",
+        "link": "",
+        "codeSpace": ""
+      }
+    ],
+    "download_url": "https://sdi.eea.europa.eu/datashare/s/yoGMmpGyexa8sZr/download",
+    "archive_bytes": 155867808,
+    "archive_sha256": "ef10a0236540af7f171ab2d071c18fe561dcb679fb9d07af2ce5c030da6473f2",
+    "status": "downloaded",
+    "metrics": [
+      {
+        "metric": "pm10_annual_ug_m3",
+        "pollutant": "pm10",
+        "year": 2024,
+        "uuid": "7490d288-2b13-4421-bb91-471e1f8a8c84",
+        "source_key": "pm10_2024",
+        "interim": false,
+        "filename": "pm10_avg_24.tif",
+        "native_resolution_m": 1000.0000000000005,
+        "valid_cells": 79538,
+        "min": 8.419708251953125,
+        "max": 32.27370834350586,
+        "scale": 1.0,
+        "offset": 0.0
+      },
+      {
+        "metric": "pm10_daily_p904_ug_m3",
+        "pollutant": "pm10",
+        "year": 2024,
+        "uuid": "7490d288-2b13-4421-bb91-471e1f8a8c84",
+        "source_key": "pm10_2024",
+        "interim": false,
+        "filename": "pm10_p904_24.tif",
+        "native_resolution_m": 1000.0000000000005,
+        "valid_cells": 79538,
+        "min": 16.029090881347656,
+        "max": 61.43790817260742,
+        "scale": 1.0,
+        "offset": 0.0
+      }
+    ],
+    "source_key": "pm10_2024",
+    "metadata_url": "https://sdi.eea.europa.eu/catalogue/srv/api/records/7490d288-2b13-4421-bb91-471e1f8a8c84",
+    "retrieved_date": "2026-09-28"
+  },
+  {
+    "pollutant": "no2",
+    "year": 2024,
+    "uuid": "4c6361bd-cfd4-48de-9b4b-101cfb37f1f0",
+    "title": "NO2, European air quality data for 2024, (interpolated data), validated data, June 2026",
+    "interim": false,
+    "identifier": [
+      {
+        "code": "eea_r_3035_1_km_aq-interpolated-no2_p_2024_v01_r00",
+        "link": "",
+        "codeSpace": ""
+      }
+    ],
+    "download_url": "https://sdi.eea.europa.eu/datashare/s/C5KfDFbTDtjGAQK/download",
+    "archive_bytes": 78186051,
+    "archive_sha256": "0c5dba6f993d5dbde3edfa90eb58dc1b364ce48a80999068a9039afa8d92a03d",
+    "status": "downloaded",
+    "metrics": [
+      {
+        "metric": "no2_annual_ug_m3",
+        "pollutant": "no2",
+        "year": 2024,
+        "uuid": "4c6361bd-cfd4-48de-9b4b-101cfb37f1f0",
+        "source_key": "no2_2024",
+        "interim": false,
+        "filename": "no2_avg_24.tif",
+        "native_resolution_m": 1000.0000000000006,
+        "valid_cells": 79538,
+        "min": 0.05000000074505806,
+        "max": 37.87150955200195,
+        "scale": 1.0,
+        "offset": 0.0
+      }
+    ],
+    "source_key": "no2_2024",
+    "metadata_url": "https://sdi.eea.europa.eu/catalogue/srv/api/records/4c6361bd-cfd4-48de-9b4b-101cfb37f1f0",
+    "retrieved_date": "2026-09-28"
+  },
+  {
+    "pollutant": "o3",
+    "year": 2024,
+    "uuid": "a0eff88d-8728-4374-aa46-50c32c5f1ee7",
+    "title": "O3, European air quality data for 2024, (interpolated data), validated data, June 2026",
+    "interim": false,
+    "identifier": [
+      {
+        "code": "eea_r_3035_1_km_aq-interpolated-O3_p_2024_v01_r00",
+        "link": "",
+        "codeSpace": ""
+      }
+    ],
+    "download_url": "https://sdi.eea.europa.eu/datashare/s/kbTMsiyQeAr3yKa/download",
+    "archive_bytes": 390880579,
+    "archive_sha256": "90f67369dbd85167b294b54788128c64c13f4d433fe9dba3a754bfac4c6d8bd4",
+    "status": "downloaded",
+    "metrics": [
+      {
+        "metric": "o3_mda8_p932_ug_m3",
+        "pollutant": "o3",
+        "year": 2024,
+        "uuid": "a0eff88d-8728-4374-aa46-50c32c5f1ee7",
+        "source_key": "o3_2024",
+        "interim": false,
+        "filename": "o3_p932_24.tif",
+        "native_resolution_m": 1000.0000000000008,
+        "valid_cells": 79538,
+        "min": 89.35482788085938,
+        "max": 161.27804565429688,
+        "scale": 1.0,
+        "offset": 0.0
+      },
+      {
+        "metric": "o3_peak_season_ug_m3",
+        "pollutant": "o3",
+        "year": 2024,
+        "uuid": "a0eff88d-8728-4374-aa46-50c32c5f1ee7",
+        "source_key": "o3_2024",
+        "interim": false,
+        "filename": "o3_peak_24.tif",
+        "native_resolution_m": 1000.0000000000003,
+        "valid_cells": 79538,
+        "min": 76.4538803100586,
+        "max": 116.66921997070312,
+        "scale": 1.0,
+        "offset": 0.0
+      },
+      {
+        "metric": "o3_somo35_ug_m3_days",
+        "pollutant": "o3",
+        "year": 2024,
+        "uuid": "a0eff88d-8728-4374-aa46-50c32c5f1ee7",
+        "source_key": "o3_2024",
+        "interim": false,
+        "filename": "o3_s35_24.tif",
+        "native_resolution_m": 1000.0000000000008,
+        "valid_cells": 79538,
+        "min": 1881.3436279296875,
+        "max": 10984.1513671875,
+        "scale": 1.0,
+        "offset": 0.0
+      }
+    ],
+    "source_key": "o3_2024",
+    "metadata_url": "https://sdi.eea.europa.eu/catalogue/srv/api/records/a0eff88d-8728-4374-aa46-50c32c5f1ee7",
+    "retrieved_date": "2026-09-28"
+  },
+  {
+    "pollutant": "pm25",
+    "year": 2025,
+    "uuid": "078c8f19-b11e-414e-bb2e-f33c061ea958",
+    "title": "PM2.5, European air quality data for 2025, (interpolated data), interim data, June 2026",
+    "interim": true,
+    "identifier": [
+      {
+        "code": "eea_r_3035_1_km_aq-interpolated-pm25_p_2025_v00_r00",
+        "link": "",
+        "codeSpace": ""
+      }
+    ],
+    "download_url": "https://sdi.eea.europa.eu/datashare/s/CDgfZq5SoRGozXo/download",
+    "archive_bytes": 78210887,
+    "archive_sha256": "51a6d60b16697d3f510cfe763bfbc5252cbd44b405524018a46e12968b298f71",
+    "status": "downloaded",
+    "metrics": [
+      {
+        "metric": "pm25_annual_ug_m3",
+        "pollutant": "pm25",
+        "year": 2025,
+        "uuid": "078c8f19-b11e-414e-bb2e-f33c061ea958",
+        "source_key": "pm25_2025",
+        "interim": true,
+        "filename": "pm25_avg25_int.tif",
+        "native_resolution_m": 1000.0000000000005,
+        "valid_cells": 79538,
+        "min": 4.554905891418457,
+        "max": 21.061174392700195,
+        "scale": 1.0,
+        "offset": 0.0
+      }
+    ],
+    "source_key": "pm25_2025",
+    "metadata_url": "https://sdi.eea.europa.eu/catalogue/srv/api/records/078c8f19-b11e-414e-bb2e-f33c061ea958",
+    "retrieved_date": "2026-09-28"
+  },
+  {
+    "pollutant": "pm10",
+    "year": 2025,
+    "uuid": "e0cbd0a6-313b-49b1-8acd-e8b81f993c21",
+    "title": "PM10, European air quality data for 2025, (interpolated data), interim data, June 2026",
+    "interim": true,
+    "identifier": [
+      {
+        "code": "eea_r_3035_1_km_aq-interpolated-pm10_p_2025_v00_r00",
+        "link": "",
+        "codeSpace": ""
+      }
+    ],
+    "download_url": "https://sdi.eea.europa.eu/datashare/s/RYFMP684HBLqLSy/download",
+    "archive_bytes": 78213534,
+    "archive_sha256": "d85a77666ed1fb80c3baee55066624660f79e318ea29a34e7d0f89f95061c880",
+    "status": "downloaded",
+    "metrics": [
+      {
+        "metric": "pm10_annual_ug_m3",
+        "pollutant": "pm10",
+        "year": 2025,
+        "uuid": "e0cbd0a6-313b-49b1-8acd-e8b81f993c21",
+        "source_key": "pm10_2025",
+        "interim": true,
+        "filename": "pm10_avg25_int.tif",
+        "native_resolution_m": 1000.0000000000005,
+        "valid_cells": 79538,
+        "min": 6.854747772216797,
+        "max": 29.993270874023438,
+        "scale": 1.0,
+        "offset": 0.0
+      }
+    ],
+    "source_key": "pm10_2025",
+    "metadata_url": "https://sdi.eea.europa.eu/catalogue/srv/api/records/e0cbd0a6-313b-49b1-8acd-e8b81f993c21",
+    "retrieved_date": "2026-09-28"
+  },
+  {
+    "pollutant": "no2",
+    "year": 2025,
+    "uuid": "1fbb0911-7bbc-4de4-b78e-d55249c88275",
+    "title": "NO2, European air quality data for 2025, (interpolated data), interim data, June 2026",
+    "interim": true,
+    "identifier": [
+      {
+        "code": "eea_r_3035_1_km_aq-interpolated-no2_p_2025_v00_r00",
+        "link": "",
+        "codeSpace": ""
+      }
+    ],
+    "download_url": "https://sdi.eea.europa.eu/datashare/s/MqaoYXK4DKtAw2c/download",
+    "archive_bytes": 78178841,
+    "archive_sha256": "f88b32278217e3626dc35aeb5df42052be503643fb2f55dc93fc6962ea60cc35",
+    "status": "downloaded",
+    "metrics": [
+      {
+        "metric": "no2_annual_ug_m3",
+        "pollutant": "no2",
+        "year": 2025,
+        "uuid": "1fbb0911-7bbc-4de4-b78e-d55249c88275",
+        "source_key": "no2_2025",
+        "interim": true,
+        "filename": "no2_avg25_int.tif",
+        "native_resolution_m": 1000.0000000000006,
+        "valid_cells": 79538,
+        "min": 0.05000000074505806,
+        "max": 31.454387664794922,
+        "scale": 1.0,
+        "offset": 0.0
+      }
+    ],
+    "source_key": "no2_2025",
+    "metadata_url": "https://sdi.eea.europa.eu/catalogue/srv/api/records/1fbb0911-7bbc-4de4-b78e-d55249c88275",
+    "retrieved_date": "2026-09-28"
+  },
+  {
+    "pollutant": "o3",
+    "year": 2025,
+    "uuid": "93ad2d9c-973a-48ab-b824-4ec10783d4e2",
+    "title": "O3, European air quality data for 2025, (interpolated data), interim data, June 2026",
+    "interim": true,
+    "identifier": [
+      {
+        "code": "eea_r_3035_1_km_aq-interpolated-O3_p_2025_v00_r00",
+        "link": "",
+        "codeSpace": ""
+      }
+    ],
+    "download_url": "https://sdi.eea.europa.eu/datashare/s/mt8xa6iHg2mF6nf/download",
+    "archive_bytes": 78272559,
+    "archive_sha256": "47a0fd5225a19d0c299e9fcfbdddb05fa2f842e8c417c8d8ad32d152143f3286",
+    "status": "downloaded",
+    "metrics": [
+      {
+        "metric": "o3_peak_season_ug_m3",
+        "pollutant": "o3",
+        "year": 2025,
+        "uuid": "93ad2d9c-973a-48ab-b824-4ec10783d4e2",
+        "source_key": "o3_2025",
+        "interim": true,
+        "filename": "o3_peak25_int.tif",
+        "native_resolution_m": 1000.0000000000003,
+        "valid_cells": 79538,
+        "min": 76.8595962524414,
+        "max": 126.05967712402344,
+        "scale": 1.0,
+        "offset": 0.0
+      }
+    ],
+    "source_key": "o3_2025",
+    "metadata_url": "https://sdi.eea.europa.eu/catalogue/srv/api/records/93ad2d9c-973a-48ab-b824-4ec10783d4e2",
+    "retrieved_date": "2026-09-28"
+  }
+]
